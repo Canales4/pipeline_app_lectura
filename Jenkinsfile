@@ -40,9 +40,7 @@ pipeline {
             }
         }
         stage('Deploy') {
-            steps {
 
-            }
         }
     }
 }
