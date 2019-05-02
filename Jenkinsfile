@@ -7,36 +7,7 @@ pipeline {
     stages {
         stage('SCM Checkout') {
             steps {
-                git branch: 'development', credentialsId: 'gituser', url: 'https://github.com/LinoHallerRios/AppLecturas', 
-            }
-        }
-        stage('Install node modules') {
-            steps {
-                sh 'npm install'
-            }
-        }
-        stage('Build') {
-            steps {
-                sh 'npm run build'
-            }
-        }
-        stage('Test') {
-            steps {
-                parallel 'Sonar Test': {
-                    script {
-                        withSonarQubeEnv('sonar-6'){
-                            sh 'mvn verify sonar:sonar'
-                        }
-                        timeout(time: 30 , unit: 'MINUTES'){
-                          def qg = waitForQualityGate()
-                          if (qg.status != 'OK') {
-                            error "Pipeline abortado por no pasar quality gates: ${qg.status}"
-                          }
-                        }
-                    }
-                }, 'Test': {
-                      sh 'mvn verify'
-                }
+                git branch: 'development', credentialsId: 'gituser', url: 'https://github.com/LinoHallerRios/AppLecturas'
             }
         }
     }
