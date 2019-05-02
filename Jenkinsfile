@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('SCM Checkout') {
             steps {
-                git credentialsId: 'usuariogit', url: 'https://github.com/LinoHallerRios/AppLecturas'
+                git credentialsId: 'gituser', url: 'https://github.com/LinoHallerRios/AppLecturas'
             }
         }
         stage('Install node modules') {
