@@ -39,8 +39,5 @@ pipeline {
                 }
             }
         }
-        stage('Deploy') {
-
-        }
     }
 }
