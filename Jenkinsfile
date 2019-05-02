@@ -1,6 +1,7 @@
 pipeline {
     agent any
     tools {
+        git 'git'
         maven 'maven360'
         nodejs 'node-11.10.0'
     }
