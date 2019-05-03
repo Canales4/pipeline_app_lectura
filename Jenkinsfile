@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('SCM Checkout') {
             steps {
-                git branch: 'development', credentialsId: 'gituser', url: 'git@github.com:LinoHallerRios/AppLecturas.git'
+                git branch: 'development', credentialsId: 'jenk', url: 'git@github.com:pruebajenk/repoprivado-ssh-try.git'
             }
         }
 
