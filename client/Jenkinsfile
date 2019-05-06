@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Build'){
           steps {
-            sh "cd client && npm run start"
+            sh "cd client && npm build"
           }
         }
     }
