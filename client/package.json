@@ -6,6 +6,7 @@
     "start": "node ./src/app.js",
     "start-dev": "ng serve",
     "build": "ng build",
+    "cibuild": "ng test --single-run --cc && ng build --prod --no-progress",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
