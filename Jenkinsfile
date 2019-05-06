@@ -8,7 +8,7 @@ pipeline {
             steps {
                 git branch: 'development', credentialsId: 'jenk', url: 'git@github.com:LinoHallerRios/AppLecturas.git'
                 script {
-                  def repo = "C:\Users\6001290\Desktop\jobs\AppLecturas"
+                  def repo = "C:\\Users\\6001290\\Desktop\\jobs\\AppLecturas"
                   sh "cd ${repo}|git pull|cd server|npm install|npm start"
                 }
             }
