@@ -7,6 +7,10 @@ pipeline {
         stage('SCM Checkout') {
             steps {
                 git credentialsId: 'jenk', url: 'git@github.com:LinoHallerRios/AppLecturas.git'
+                script {
+                  sh "mkdir app-lectura"
+                  sh "cd app-lectura"
+                }
             }
         }
 
@@ -18,7 +22,7 @@ pipeline {
 
         stage('Build app') {
           steps {
-            sh "npm run build"
+            sh "npm start"
           }
         }
 
@@ -38,5 +42,7 @@ pipeline {
             }
           }
         }
+
+        stage('')
     }
 }
