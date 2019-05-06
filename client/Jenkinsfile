@@ -9,16 +9,30 @@ pipeline {
                 git branch: 'development', credentialsId: 'jenk', url: 'git@github.com:LinoHallerRios/AppLecturas.git'
             }
         }
-        stage('Client Install'){
+        stage('Install'){
           steps {
-            script {
-              sh 'cd client && npm install'
+            parallel 'Client Install': {
+              script {
+                sh 'cd client && npm install'
+              }
+            }, 'Server Install': {
+              script {
+                sh 'cd server && npm install'
+              }
             }
           }
         }
-        stage('Client Build'){
+        stage('Build'){
           steps {
-            sh "cd client && npm build"
+            parallel 'Client Build': {
+              script {
+                sh 'cd client && npm build'
+              }
+            }, 'Server Build': {
+              script {
+                sh 'cd server && npm build'
+              }
+            }
           }
         }
         stage('Sonar Gate') {
