@@ -11,7 +11,8 @@ pipeline {
         }
         stage('Install'){
           steps {
-            sh "cd client|pwd"
+            sh "cd ./client"
+            sh "pwd"
           }
         }
         stage('Sonar Gate') {
