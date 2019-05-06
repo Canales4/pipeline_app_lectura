@@ -11,8 +11,7 @@ pipeline {
         }
         stage('Install'){
           steps {
-            sh "npm install"
-            sh "pwd"
+            sh "cd client|pwd"
           }
         }
         stage('Sonar Gate') {
