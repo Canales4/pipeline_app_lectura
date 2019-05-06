@@ -12,11 +12,7 @@ pipeline {
         stage('Install'){
           steps {
             sh "npm install"
-          }
-        }
-        stage('Build'){
-          steps {
-            sh "npm run start"
+            sh "pwd"
           }
         }
         stage('Sonar Gate') {
