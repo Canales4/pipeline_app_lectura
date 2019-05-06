@@ -19,21 +19,5 @@ pipeline {
             sh "npm run build"
           }
         }
-        stage('Sonar Gate') {
-          steps{
-            script {
-              def scannerHome = tool 'sonar33';
-              withSonarQubeEnv('sonar-6'){
-                  sh "${scannerHome}/bin/sonar-scanner"
-              }
-              timeout(time: 30 , unit: 'MINUTES'){
-                def qg = waitForQualityGate()
-                if (qg.status != 'OK') {
-                  error "Pipeline abortado por no pasar quality gates: ${qg.status}"
-                }
-              }
-            }
-          }
-        }
     }
 }
