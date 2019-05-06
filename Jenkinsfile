@@ -7,10 +7,17 @@ pipeline {
         stage('SCM Checkout') {
             steps {
                 git branch: 'development', credentialsId: 'jenk', url: 'git@github.com:LinoHallerRios/AppLecturas.git'
-                script {
-                  sh "cd client|npm install|npm run build"
-                }
             }
+        }
+        stage('Install'){
+          steps {
+            sh "npm install"
+          }
+        }
+        stage('Build'){
+          steps {
+            sh "npm run build"
+          }
         }
         stage('Sonar Gate') {
           steps{
