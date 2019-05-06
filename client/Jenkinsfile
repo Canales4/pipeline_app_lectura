@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+      docker { image 'sonarqube:7.7-community' }
+    }
     tools {
         nodejs 'node-11.10.0'
     }
