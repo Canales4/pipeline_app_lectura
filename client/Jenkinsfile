@@ -26,9 +26,9 @@ pipeline {
         stage('Sonar Gate') {
           steps{
             script {
-              def scannerHome = tool 'sonar33';
+              def scannerHome = tool 'Sonarqube Scanner';
               withSonarQubeEnv('sonar-6'){
-                  sh "${scannerHome}\\bin\\sonar-scanner"
+                  sh "${scannerHome}"
               }
               timeout(time: 30 , unit: 'MINUTES'){
                 def qg = waitForQualityGate()
