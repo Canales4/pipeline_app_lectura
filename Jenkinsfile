@@ -8,7 +8,7 @@ pipeline {
             steps {
                 git branch: 'development', credentialsId: 'jenk', url: 'git@github.com:LinoHallerRios/AppLecturas.git'
                 script {
-                  sh "pwd"
+                  sh "cd client|npm install|npm run build"
                 }
             }
         }
