@@ -11,8 +11,13 @@ pipeline {
         }
         stage('Install'){
           steps {
-            sh "cd ./client"
-            sh "pwd"
+            sh "cp ./client/package.json ."
+            sh "npm install"
+          }
+        }
+        stage('Install'){
+          steps {
+            sh "npm run build"
           }
         }
         stage('Sonar Gate') {
