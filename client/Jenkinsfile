@@ -9,12 +9,11 @@ pipeline {
                 git branch: 'development', credentialsId: 'jenk', url: 'git@github.com:LinoHallerRios/AppLecturas.git'
             }
         }
-        stage('Install'){
+        stage('Client Install'){
           steps {
             script {
-              def jenkWorkspace = "C:/Program Files (x86)/Jenkins/workspace"
-              def gitProject = "/AppLecturaPrueba/client"
-              sh "cd ${jenkWorkspace}${gitProject}"
+              def jenkWorkspaceProject = "C:/Program Files (x86)/Jenkins/workspace/AppLecturaPrueba/client"
+              sh "cd ${jenkWorkspaceProject}"
               sh "npm install"
             }
           }
