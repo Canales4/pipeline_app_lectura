@@ -1,5 +1,4 @@
 pipeline {
-    def home = 'C:\\Program Files (x86)\\Jenkins\\workspace'
     agent {
       docker {
         image 'node:11-slim'
