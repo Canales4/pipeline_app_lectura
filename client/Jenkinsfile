@@ -15,10 +15,6 @@ pipeline {
               script {
                 sh 'cd client && npm install'
               }
-            }, 'Server Install': {
-              script {
-                sh 'cd server && npm install'
-              }
             }
           }
         }
@@ -27,10 +23,6 @@ pipeline {
             parallel 'Client Build': {
               script {
                 sh 'cd client && npm build'
-              }
-            }, 'Server Build': {
-              script {
-                sh 'cd server && npm build'
               }
             }
           }
