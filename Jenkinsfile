@@ -8,24 +8,11 @@ pipeline {
             steps {
                 git branch: 'development', credentialsId: 'jenk', url: 'git@github.com:LinoHallerRios/AppLecturas.git'
                 script {
-                  sh "mkdir app-lectura"
-                  sh "cd app-lectura"
+                  def repo = "C:\Users\6001290\Desktop\jobs\AppLecturas"
+                  sh "cd ${repo}|git pull|cd server|npm install|npm start"
                 }
             }
         }
-
-        stage('Installando modulos de node') {
-          steps {
-            sh "npm install"
-          }
-        }
-
-        stage('Build app') {
-          steps {
-            sh "npm start"
-          }
-        }
-
         stage('Sonar Gate') {
           steps{
             script {
