@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('SCM Checkout') {
             steps {
-                git credentialsId: 'jenk', url: 'git@github.com:LinoHallerRios/AppLecturas.git'
+                git branch: 'development', credentialsId: 'jenk', url: 'git@github.com:LinoHallerRios/AppLecturas.git'
                 script {
                   sh "mkdir app-lectura"
                   sh "cd app-lectura"
