@@ -14,7 +14,7 @@ pipeline {
           steps{
             script {
               withSonarQubeEnv('sonar-6'){
-                  sh 'mvn verify sonar:sonar'
+                  sh 'npm verify sonar:sonar'
               }
               timeout(time: 30 , unit: 'MINUTES'){
                 def qg = waitForQualityGate()
