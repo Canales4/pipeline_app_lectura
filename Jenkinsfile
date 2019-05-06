@@ -11,7 +11,6 @@ pipeline {
         }
         stage('Install'){
           steps {
-            sh "cp ./client/package.json ."
             sh "npm install"
           }
         }

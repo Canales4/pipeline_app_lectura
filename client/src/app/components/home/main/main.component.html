@@ -1,0 +1,156 @@
+
+<!-- Cuerpo del home -->
+<div class="container-fluid ">
+  <div class="row fondo">
+      <div class="col-md-9">
+          <div class="row">
+              <div class="col-md-4">
+                  <img src="../../../../assets/icono.png" class="card-img-top img-fluid1" alt="Icono de Usuario">
+              </div>
+              <div class="col-md-8">
+                <h1>Bienvenid@ {{ details?.nomUsuario }}</h1>
+                <p>Bienvenida a tu aplicación de lecturas,donde podrás disfrutar añadiendo los libros que estas leyendo,puntuarlos y hacer una crítica
+                  de lo que te ha parecido y además unirte a clubs y añadir libros a tus próximas lecturas.
+                </p>
+              </div>
+          </div>
+    <div class="col-md-12 colCarrousel">
+      <!--CARRUSEL-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active car1">
+            <!--PRIMER CARRUSEL-->
+            <h2 id="libroMasVendido">Libro más vendido</h2>
+            <div class="row car1">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-5 col2">
+                    <img src="{{books.items[0].volumeInfo.imageLinks.thumbnail}}" id="masVendido"
+                      class="card-img-top img shadow-lg rounded-lg" alt="Portada">
+                  </div>
+                  <div class="col-md-7 col3">
+                    <h3 id="titulo">{{books.items[0].volumeInfo.title}}</h3>
+                    <h5 id="autor">{{books.items[0].volumeInfo.authors}}</h5>
+                    <p id="sinopsis">{{books.items[0].searchInfo.textSnippet}}</p>
+                    <!-- <a href="#" class="myButton">Leer más...</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item car1">
+            <!--SEGUNDO CARRUSEL-->
+            <h2 id="libroMasVendido">Más puntuado</h2>  
+            <div class="row car1">
+                <div class="col-md-12">
+                  <div class="row">
+                
+                    <div class="col-md-7 col3">
+                      <h3 id="titulo">{{bestBook.items[0].volumeInfo.title}}</h3>
+                      <h5 id="autor">{{bestBook.items[0].volumeInfo.authors}}</h5>
+                      <p id="sinopsis">{{bestBook.items[0].searchInfo.textSnippet}}</p>
+                      <ng-template #t let-fill="fill">
+                        <span class="star" [class.full]="fill === 100">
+                          <span class="half" [style.width.%]="fill">&hearts;</span>&hearts;
+                        </span>
+                    </ng-template>
+                    <ngb-rating [(rate)]="currentRate" [starTemplate]="t" [readonly]="true" max="5"></ngb-rating>
+                    <br>
+                      <a href="#" class="myButton">Añadir a favoritos</a>
+                    </div>
+                    <div class="col-md-5 col2">
+                        <img src="{{bestBook.items[0].volumeInfo.imageLinks.thumbnail}}" id="masVendido"
+                          class="card-img-top img shadow-lg rounded-lg" alt="Portada">
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- <div class="carousel-item car1">
+            TERCER CARRUSEL
+            <h1 id="libroMasVendido">Novedades</h1>
+            <div class="row car1">
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col-md-5 col2">
+                      <img src="{{books.items[0].volumeInfo.imageLinks.thumbnail}}" id="masVendido"
+                        class="card-img-top img shadow-lg rounded-lg" alt="Portada">
+                    </div>
+                    <div class="col-md-7 col3">
+                      <h1 id="titulo">{{books.items[0].volumeInfo.title}}</h1>
+                      <h4 id="autor">{{books.items[0].volumeInfo.authors}}</h4>
+                      <p id="sinopsis">{{books.items[0].searchInfo.textSnippet}}</p>
+  
+                      <a href="#" class="myButton">Leer más...</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div> -->
+        </div>
+        <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a> -->
+      </div>
+    </div>
+  </div>
+    <div class="col-md-3 espacioInformacion">
+      <div class="container-fluid">
+          <div class="card">
+              <img src="../../../../assets/fogg-no-comments.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Club novedad</h5>
+              </div>
+            </div>
+            <br>
+        <div class="card">
+            <img src="../../../../assets/fogg-searching-1.png" class="card-img-top" alt="Icono de Usuario">
+            <div class="card-body">
+                <h4 class="card-text">Tu último libro leído</h4>
+            </div>
+          </div>
+
+    </div>
+  </div>
+  </div>
+
+
+
+<!-- <div class="container-fluid">
+      <div class="row body">
+          <div class="col-md-9">
+            <div class="row ficha">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-2 col1">
+                             <h4>El más vendido</h4> 
+                            </div>
+                            <div class="col-md-4 col2">   
+                                  <img src="{{books.items[0].volumeInfo.imageLinks.thumbnail}}" id="masVendido" class="card-img-top img shadow-lg rounded-lg" alt="Portada">
+                            </div>
+                            <div class="col-md-6 col3">
+                              <h1 id="titulo">{{books.items[0].volumeInfo.title}}</h1>
+                              <h4 id="autor">{{books.items[0].volumeInfo.authors}}</h4>
+                              <p id="sinopsis">{{books.items[0].searchInfo.textSnippet}}</p>
+                              
+                            <a href="#" class="myButton">Leer más...</a>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+              </div>
+              <div class="col-md-3 ficha2">
+                  <h1>NOTICIARIO</h1>
+                </div>
+              </div> -->
+</div>

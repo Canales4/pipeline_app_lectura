@@ -1,0 +1,11 @@
+
+.salir{
+    text-align: right;
+    padding-top: 1vw;
+}
+
+@media (min-width: 601px) {
+    .menu{
+        visibility: hidden;
+    }
+}

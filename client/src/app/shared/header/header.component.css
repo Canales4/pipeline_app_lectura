@@ -1,0 +1,110 @@
+/* HEADER */
+p{
+    color: black;
+}
+header .co{
+    text-align: center;
+    font-size: 1vw;
+}
+header .colInicial{
+    display: none;
+}
+.header3 .colInicial{
+    display: initial;
+}
+.co a:hover {
+    background-color: rgba(128, 128, 128, 0.082);
+    }
+.header3{
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    margin-top: -3.2vw;
+}
+
+.header3 p{
+    display: none;
+}
+
+.iconos2{
+    text-align: center;
+    width: 25%;
+}
+
+.colcentro{
+    text-align: center;
+    width: 90%;
+}
+.colcentro2{
+    text-align: center;
+}
+header .img-fluid{
+    max-width: 2vw;
+    height: auto;
+    padding-top: 1vw;
+}
+header .img-fluid1{
+    max-width: 13vw;
+    height: auto;
+}
+.header3 .colcentro{
+ display: none;
+ text-align: center;
+}
+.header3 .img-fluid{
+    max-width: 2vw;
+    height: auto;
+    text-align: center;
+}
+
+@media (max-width: 600px) and (orientation: portrait) {
+    
+    header{
+        display: none;
+    }
+    .header3{
+        display: none;
+    }
+    .row{
+        margin-left: 0.4vw;
+    }
+    .img-fluid{
+        max-width: 6vw;
+        height: auto;
+    }
+    .img-fluid1{
+        max-width: 20vw;
+        height: auto;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 800px) and (orientation: portrait) {
+    
+    header{
+        display: none;
+    }
+    .header3{
+        display: none;
+    }
+    .img-fluid1{
+        max-width: 10vw;
+        height: auto;
+        text-align: center;
+    }
+    .img-fluid{
+        max-width: 3vw;
+        height: auto;
+    }
+   
+}
+
+@media (min-width: 801px) {
+    .header2{
+        display: none;
+    }
+    .row{
+        margin-left: 9vw;
+        margin-right: 9vw;
+    }
+
+}
