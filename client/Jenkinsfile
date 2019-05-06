@@ -12,7 +12,8 @@ pipeline {
         stage('Client Install'){
           steps {
             script {
-              sh 'pwd'
+              sh 'cd /c/Program Files (x86)/Jenkins/workspace/AppLecturaPrueba/client'
+              sh 'npm install'
             }
           }
         }
