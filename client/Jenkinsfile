@@ -1,8 +1,5 @@
 pipeline {
-    agent any
-    tools {
-        nodejs 'node-11.10.0'
-    }
+    agent { docker { image 'node:11.10.0' } }
     stages {
         stage('SCM Checkout') {
             steps {
@@ -28,12 +25,10 @@ pipeline {
           }
         }
         stage('Sonar Gate') {
+          agent { docker { image 'sonarqube:latest' } }
           steps{
             script {
-              def scannerHome = tool 'Sonarqube Scanner';
-              withSonarQubeEnv('sonar-6'){
-                  sh "${scannerHome} sonar-scanner"
-              }
+              sh 'docker run -d --name sonarqube -p 9000:9000 sonarqube'
               timeout(time: 30 , unit: 'MINUTES'){
                 def qg = waitForQualityGate()
                 if (qg.status != 'OK') {
