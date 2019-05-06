@@ -36,5 +36,12 @@ pipeline {
             }
           }
         }
+        stage('IBMCloud Deploy') {
+          steps {
+            script {
+              sh 'echo Realizando deploy en Ibmcloud...'
+            }
+          }
+        }
     }
 }
