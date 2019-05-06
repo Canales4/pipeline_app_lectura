@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Client Build'){
           steps {
-            sh "cd client && npm build"
+            sh "cd client && npm cibuild"
           }
         }
         stage('Sonar Gate') {
