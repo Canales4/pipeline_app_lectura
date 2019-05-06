@@ -13,9 +13,8 @@ pipeline {
           steps {
             script {
               def jenkWorkspace = "C:\\Program Files (x86)\\Jenkins\\workspace"
-              def gitProyect = ".\\AppLecturaPrueba\\client"
-              sh "cd ${jenkWorkspace}+${gitProyect}"
-              sh "pwd"
+              def gitProyect = "\\AppLecturaPrueba\\client"
+              sh "cd ${jenkWorkspace}${gitProyect}"
               sh "npm install"
             }
           }
