@@ -10,6 +10,18 @@ pipeline {
             }
         }
 
+        stage('Installando modulos de node') {
+          steps {
+            sh "npm install"
+          }
+        }
+
+        stage('Build app') {
+          steps {
+            sh "npm run build"
+          }
+        }
+
         stage('Sonar Gate') {
           steps{
             script {
