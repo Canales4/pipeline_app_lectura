@@ -12,7 +12,7 @@ pipeline {
         stage('Client Install'){
           steps {
             script {
-              sh 'cd /c/Program Files (x86)/Jenkins/workspace/AppLecturaPrueba/client'
+              sh 'cd client'
               sh 'npm install'
             }
           }
