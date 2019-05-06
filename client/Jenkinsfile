@@ -12,8 +12,7 @@ pipeline {
         stage('Client Install'){
           steps {
             script {
-              sh 'cd client'
-              sh 'npm install'
+              sh 'cd client && npm install'
             }
           }
         }
