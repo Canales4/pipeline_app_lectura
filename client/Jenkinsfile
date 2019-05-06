@@ -13,7 +13,7 @@ pipeline {
           steps {
             script {
               def jenkWorkspace = "C:\\Program Files (x86)\\Jenkins\\workspace"
-              sh "cd ${jenkWorkspace}/client"
+              sh "cd ${jenkWorkspace}\\client"
               sh "pwd"
               sh "npm install"
             }
