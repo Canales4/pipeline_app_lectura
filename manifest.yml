@@ -1,0 +1,4 @@
+applications:
+- name: App-Lectura
+  random-route: true
+  memory: 128M
