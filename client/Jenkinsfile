@@ -31,7 +31,7 @@ pipeline {
           steps{
             script {
               withSonarQubeEnv('sonar-6') {
-                sh 'cd ../.. && cd tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar33/bin && sonar-scanner'
+                sh 'cd ../.. && cd tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar33/bin && bat sonar-scanner'
                 /*def scannerHome = tool 'sonar33';
                 sh "${scannerHome}/bin/sonar-scanner"*/
               }
