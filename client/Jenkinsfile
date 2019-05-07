@@ -49,7 +49,7 @@ pipeline {
           steps {
             script {
               sh 'echo Realizando deploy en Ibmcloud...'
-              sh 'npm start'
+              sh 'cd client && npm start'
             }
           }
         }
