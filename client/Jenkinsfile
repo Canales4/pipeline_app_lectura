@@ -29,15 +29,15 @@ pipeline {
         }
         stage('Sonar Gate') {
           steps{
-            //script {
+            script {
               withSonarQubeEnv('sonar-6') {
                 sh 'cd ../.. && cd tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar33/bin && ./sonar-scanner'
               }
-              /*def qg = waitForQualityGate()
+              def qg = waitForQualityGate()
               if (qg.status != 'OK') {
                 error "Pipeline abortado por no pasar quality gates: ${qg.status}"
-              }*/
-            //}
+              }
+            }
           }
         }
         stage('IBMCloud Deploy') {
