@@ -32,7 +32,7 @@ pipeline {
             }
           }
         }
-        /*stage('Sonar Gate') {
+        stage('Sonar Gate') {
           steps{
             script {
               withSonarQubeEnv('sonar-6') {
@@ -44,7 +44,7 @@ pipeline {
               }
             }
           }
-        }*/
+        }
         stage('IBMCloud Deploy') {
           steps {
             script {
