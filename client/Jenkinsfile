@@ -32,13 +32,11 @@ pipeline {
             script {
               withSonarQubeEnv('sonar-6') {
                 sh 'cd ../.. && cd tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar33/bin && ./sonar-scanner'
-                /*def scannerHome = tool 'sonar33';
-                sh "${scannerHome}/bin/sonar-scanner"*/
-              }
-              timeout(time: 30 , unit: 'MINUTES'){
-                def qg = waitForQualityGate()
-                if (qg.status != 'OK') {
-                  error "Pipeline abortado por no pasar quality gates: ${qg.status}"
+                timeout(time: 30 , unit: 'MINUTES'){
+                  def qg = waitForQualityGate()
+                  if (qg.status != 'OK') {
+                    error "Pipeline abortado por no pasar quality gates: ${qg.status}"
+                  }
                 }
               }
             }
