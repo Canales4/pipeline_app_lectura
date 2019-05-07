@@ -22,7 +22,7 @@ pipeline {
           steps {
             parallel 'Client Build': {
               script {
-                sh 'cd client && npm build'
+                sh 'cd client && npm run build'
               }
             }
           }
