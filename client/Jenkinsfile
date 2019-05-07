@@ -1,8 +1,6 @@
 pipeline {
     agent {
-      docker {
-        image 'node:11-slim'
-      }
+      dockerfile true
     }
     stages {
         stage('SCM Checkout') {
@@ -15,6 +13,7 @@ pipeline {
             parallel 'Client Install': {
               script {
                 sh 'cd client && npm install'
+                sh 'echo myCustomEnvVar = $myCustomEnvVar'
               }
             }
           }
