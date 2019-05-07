@@ -13,7 +13,6 @@ pipeline {
             parallel 'Client Install': {
               script {
                 sh 'cd client && npm install'
-                sh 'echo myCustomEnvVar = $myCustomEnvVar'
               }
             }
           }
