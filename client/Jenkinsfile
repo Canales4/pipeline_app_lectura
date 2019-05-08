@@ -25,7 +25,7 @@ pipeline {
             parallel 'Server Build': {
               script {
                 //sh 'cd server && npm run dev'
-                sh 'npm run start'
+                sh 'cd server && npm run start'
               }
             }, 'Client Build': {
               sh 'cd client && npm run build'
