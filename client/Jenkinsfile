@@ -34,12 +34,8 @@ pipeline {
         }
         stage('Test'){
           steps {
-            parallel 'Test Client': {
-              script {
-               sh 'cd client && npm test'
-              }
-            }, 'Test Server': {
-              sh 'cd server && npm test'
+            script {
+              sh 'cd client && npm test'
             }
           }
         }
