@@ -28,7 +28,7 @@ pipeline {
               }
             }, 'Client Build': {
               sh 'cd client && npm run build'
-              sh 'cd client && npm start'
+              //sh 'cd client && npm start'
             }
           }
         }
