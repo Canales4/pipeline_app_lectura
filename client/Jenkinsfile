@@ -23,7 +23,9 @@ pipeline {
         stage('Build'){
           steps {
             parallel 'Server Build': {
-                //sh 'cd server && npm run dev'
+              script {
+                sh 'echo hi'
+              }
             }, 'Client Build': {
               sh 'cd client && npm run build'
               sh 'cd client && npm start'
