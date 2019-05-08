@@ -74,10 +74,11 @@ router.post('/books', (req, res, next) => {
                 if (err) console.log(err);
             });
         }
+        console.log(lecturas);
         if (lecturas) {
             selects();
         } else {
-            insertLecturas();
+            selectLibro();
         }
     }
 
@@ -92,18 +93,27 @@ router.post('/books', (req, res, next) => {
         mysqlConnection.query("SELECT codAutor FROM autor WHERE nomAutor = ?", [autor], (err, rows) => {
             if (err) console.log(err);
             idAut = rows[0].codAutor;
+            mysqlConnection.query("SELECT codTitulo FROM titulo WHERE ISBN = ?", [isbn], (err, rows) => {
+                if (err) console.log(err);
+                idTit = rows[0].codTitulo;
+                insertLibro();
+            });
         });
-        mysqlConnection.query("SELECT codTitulo FROM titulo WHERE ISBN = ?", [isbn], (err, rows) => {
+        
+    }
+
+    function selectLibro() {
+        mysqlConnection.query("SELECT codLibro FROM libros WHERE codTitulo = ?", [idTit], (err, rows) => {
             if (err) console.log(err);
-            idTit = rows[0].codTitulo;
-            insertLibro();
+            codLib = rows[0].codLibro;
+            insertLecturas();
         });
     }
 
     function insertLibro() {
         mysqlConnection.query("INSERT INTO libros (codAutor, codTitulo) VALUES ( ?, ?)", [idAut, idTit], (err, rows) => {
             if (err) console.log(err);
-            insertLecturas();
+            selectLibro();
         });
     }
 
