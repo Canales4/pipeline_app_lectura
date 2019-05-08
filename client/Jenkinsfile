@@ -22,7 +22,9 @@ pipeline {
         }
         stage('Build'){
           steps {
-            parallel 'Server Build': {
+            parallel 'Dump .sql': {
+              sh 'cd C:\\xampp\\mysql\\bin && ./mysqldump --user=root --databases app_lecturas > app_lecturas.sql'
+            }, 'Server Build': {
               script {
                 sh 'echo hi'
               }
