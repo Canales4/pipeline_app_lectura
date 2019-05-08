@@ -10,8 +10,7 @@ var bodyParser = require("body-parser")
 var homeRouter = require('./routes/homeRouter');
 var loginRouter = require('./routes/loginRouter');
 var booksRouter = require('./routes/booksRouter');
-var deleteRouter = require('./routes/deleteRouter');
-var modifyRouter = require('./routes/modifyRouter');
+var profileRouter = require('./routes/profileRouter');
 var ClubRouter = require('./routes/ClubRouter');
 
 var app = express();
@@ -29,8 +28,9 @@ app.use(
 )
 
 app.use('/', homeRouter);
+app.use('/', booksRouter);
+app.use('/', profileRouter);
 app.use('/loginPage', loginRouter);
-app.use('/books', booksRouter);
 app.use('/club', ClubRouter);
 
 module.exports = app;

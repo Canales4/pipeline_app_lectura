@@ -1,5 +1,5 @@
 //Aqui vamos a definir los controladores que tendra club
-var db = require('../database/db-delete');
+var db = require('../database/db');
 
 class ClubController {
     //para sacar la lista entera de clubs
@@ -15,8 +15,7 @@ class ClubController {
         db.query('SELECT * FROM club WHERE codClub = ?', [idClub], (err, rows, fields) => {
             if (rows.length > 0) { //si el juego existe muestralo
                 res.json(rows);
-            }
-            else {  //si no existe manda un error diciendo que no existe
+            } else { //si no existe manda un error diciendo que no existe
                 res.status(404).json({ text: 'El club no existe' });
             }
             console.log(rows);

@@ -1,4 +1,6 @@
+// book object
 export interface Book {
+    codUser?: string;
     isbn?: string;
     titulo?: string;
     genero?: string;
@@ -11,3 +13,4 @@ export interface Book {
     editorial?: string;
     idioma?: string;
 }
+

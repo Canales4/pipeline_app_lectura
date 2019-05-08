@@ -1,54 +1,49 @@
-/* CARRUSEL */
-
-.colCarrousel{
-    padding:3vw;
-    margin-top: 2vw;
-}
+/* Fondo para Background */
 
 .fondo{
-    background-image: url(../../../../assets/back7.jpg);
+    background-color: rgb(132,178,255);
+    border-top: solid 11px rgb(255, 204, 128);
+    /* background-image: url(../../../../assets/template5.gif); */
     background-size: cover;
-    padding-top: 10vw;
-    /* background-color: rgb(255, 189,44) */
+    padding-top: 3vw;
+}
+
+/* CSS para el CARRUSEL */
+
+.colCarrousel{
+    padding:vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    background-color: rgb(255, 204, 128);
+    border: solid rgb(57, 108, 196);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 7vw;
 }
 
 .img-fluid1{
-    max-width: 65%;
+    max-width: 20vw;
     height: auto;
     margin-left: 3vw;
 }
 #libroMasVendido{
     text-align: center;
+    margin-top: 1.2vw;
 }
-.car1{
-    background-color: rgb(255,231,170)
-}
-.espacioInformacion{
-    margin-top: 2vw;
-    text-align: center;
-    padding-top: 5vw;
-}
-#masVendido{
+
+#portadas{
     filter: drop-shadow(5px 5px 10px #444);
+    width: 15vw;
 }
 
-.h1{
-    text-align: center;
-    margin-top: 10vw;
-    font-size: 10vw;
-}
-
-.col1{
-    text-align: center;
-    margin-top: 20vw;
-}
-
-.col2{
-    padding: 5vw;
+.columna1{
+    padding: 4vw;
     text-align: center;
 }
-.col3{
-    padding:4vw;
+.columna2{
+    padding-top:1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-bottom: 6vw;
     text-align: right;
     
 }
@@ -69,6 +64,18 @@
     font-family: 'Raleway', sans-serif;
 }
 
+/* Espacio para información adicional */
+
+
+.espacioInformacion{
+    margin-top: 5vw;
+    text-align: center;
+}
+.card{
+    padding-top: 0.8vw;
+}
+
+/* boton personalizado */
 .myButton{
     margin-top: 2vw;
 }
@@ -129,6 +136,7 @@
     color: red;
   }
 
+  /* Adaptación para pantallas pequeñas*/
 
 @media (max-width: 600px) and (orientation: portrait) {
     #masVendido{
@@ -149,6 +157,8 @@
     
 }
 
+/* Adaptación para pantallas medianas */
+
 @media (min-width: 601px) and (max-width: 800px) and (orientation: portrait) {
 
     .fondo{
@@ -158,6 +168,8 @@
     }
 
 }
+
+/* Adaptación para pantallas de mas de 800px */
 
 @media (min-width: 801px) {
 

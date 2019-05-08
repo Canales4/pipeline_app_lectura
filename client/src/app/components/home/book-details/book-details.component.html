@@ -76,7 +76,23 @@
     </div>
     <div class="col-md-11 mt-5">
       <div class="container-fluid">
-        Comentarios y criticas
+          <div class="container-fluid detailBox p-4">
+              <b>
+                <h3>Comentarios y criticas</h3>
+              </b>
+              <hr class="hr-blue">
+              <div *ngIf="book[0].descripcion.length >= 360" id="acc">
+                <p class="collapse" id="collapseAcc">
+                  {{book[0].descripcion}}
+                </p>
+                <a class="collapsed" data-toggle="collapse" href="#collapseAcc" aria-expanded="false"
+                  aria-controls="collapseAcc"></a>
+              </div>
+              <div *ngIf="book[0].descripcion.length < 360">
+                {{book[0].descripcion}}
+              </div>
+            </div>
+        
       </div>
     </div>
   </div>

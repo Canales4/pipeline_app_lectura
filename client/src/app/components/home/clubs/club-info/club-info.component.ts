@@ -60,6 +60,12 @@ export class ClubInfoComponent implements OnInit {
     console.log(codClub)
   }
 
+   //ACTUALIZAR UN CLUB
+   updateClub() {
+     this.clubsService.updateClub(this.clubs.codClub,this.clubs,)
+        console.log("este club mola" +this.clubs);
+  }
+
   // PARA EL FUNCIONAMIENTO DE LOS MODALES, ABRIR Y CERRAR
   openModal(template: TemplateRef<any>) {
     this.modalRef = this.modalService.show(template);

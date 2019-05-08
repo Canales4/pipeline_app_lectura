@@ -51,6 +51,6 @@ export class PerfilService {
     this.profile.sexo = sexo;
     this.profile.alias = alias;
     console.log(this.profile);
-    return this.http.put<any>(this.API_URI + `/modify/${codUsuario}`, this.profile);
+    return this.http.put<any>(this.API_URI + `/profile/modify/${codUsuario}`, this.profile);
   }
 }

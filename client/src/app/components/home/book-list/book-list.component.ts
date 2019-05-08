@@ -1,29 +1,33 @@
 import { ApiBooksService } from './../../../services/api-books.service';
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ServerService } from 'src/app/services/server.service';
-import { NgbPopover, NgbPopoverConfig } from '@ng-bootstrap/ng-bootstrap';
-import {CdkDragDrop, moveItemInArray} from '@angular/cdk/drag-drop';
-import { formatNumber } from '@angular/common';
 import { NavbarService } from 'src/app/services/navbar.service';
+import { AuthenticationService, UserDetails } from '../../../services/authentication.service';
+import { Data } from '../../../models/Data';
+
 
 
 
 @Component({
   selector: 'app-book-list',
   templateUrl: './book-list.component.html',
-  styleUrls: ['./book-list.component.css'],
-  encapsulation: ViewEncapsulation.None,
-  providers: [NgbPopoverConfig]
+  styleUrls: ['./book-list.component.css']
 })
+// component that lists the books from the database
 export class BookListComponent implements OnInit {
 
   books;
+  userDet: UserDetails;
+  check = false;
+  userCod: Data = {
+    codUser: ''
+  };
 
 // tslint:disable-next-line: max-line-length
-  constructor(private bookService: ServerService, private bookApi: ApiBooksService, private config: NgbPopoverConfig, public nav: NavbarService) { }
-
+  constructor(private bookService: ServerService, private bookApi: ApiBooksService, public nav: NavbarService, private user: AuthenticationService) { }
+  // get the books
   getBooks() {
-    this.bookService.getBooks()
+    this.bookService.getBooks(this.userCod)
       .subscribe(
         res => {
           this.books = res;
@@ -33,18 +37,28 @@ export class BookListComponent implements OnInit {
       );
   }
 
-  drop(event: CdkDragDrop<string[]>) {
-    moveItemInArray(this.books, event.previousIndex, event.currentIndex);
-    console.log(this.books);
-  }
-
+ // fuction that send books to other components
   sendBook(book: any) {
     this.bookApi.receiveBookId(book);
   }
 
-  ngOnInit() {
-    this.getBooks();
-    this.nav.show();
+  userData() {
+    this.user.profile().subscribe(
+      user => {
+        this.userDet = user;
+        this.userCod.codUser = this.userDet.codUsuario.toString();
+        this.getBooks();
+      },
+      err => {
+        console.error(err);
+      }
+    );
   }
+
+  ngOnInit() {
+    this.nav.show();
+    this.userData();
+  }
+
 
 }

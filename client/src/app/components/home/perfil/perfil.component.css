@@ -64,6 +64,14 @@
     background: rgb(111, 188, 100);
 }
 
+.btn-azulc {
+    background-color: rgb(132, 178, 255);
+}
+
+.btn-azulc:hover {
+    background-color: rgb(198, 219, 255);
+}
+
 
 /* FUENTES */
 

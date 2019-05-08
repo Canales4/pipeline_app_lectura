@@ -4,19 +4,21 @@ import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 import { NgbModal, NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 import { Book } from '../../../models/Book';
 import { ServerService } from '../../../services/server.service';
-import { Router } from '@angular/router';
 import { NavbarService } from '../../../services/navbar.service';
+import { AuthenticationService, UserDetails } from '../../../services/authentication.service';
 
 @Component({
   selector: 'app-book-search',
   templateUrl: './book-search.component.html',
-  styleUrls: ['./book-search.component.css']
+  styleUrls: ['./book-search.component.css'],
 })
+// component that search for books
 export class BookSearchComponent implements OnInit {
   books: any[] = [];
   booksID: any[] = [];
   bookAPI;
   modalRef: BsModalRef;
+  userDetails: UserDetails;
 
   titleSel = true;
   autorSel = false;
@@ -31,6 +33,7 @@ export class BookSearchComponent implements OnInit {
   results: any;
 
   book: Book = {
+    codUser: '',
     isbn: '',
     titulo: '',
     genero: '',
@@ -47,16 +50,15 @@ export class BookSearchComponent implements OnInit {
     private bookservice: ApiBooksService,
     private modalService: BsModalService,
     private modal: NgbModal,
-    activeModal: NgbActiveModal,
     private server: ServerService,
-    private router: Router,
-    private nav: NavbarService
+    private nav: NavbarService,
+    private user: AuthenticationService
   ) {
     this.searchByTitle();
     this.searchByAuthor();
     this.searchByISBN();
   }
-
+  // book searchs
   searchByTitle() {
     if (this.title === '') {
       return;
@@ -110,7 +112,7 @@ export class BookSearchComponent implements OnInit {
       err => console.log(err)
     );
   }
-
+  // select the type of search
   select(type: string): void {
     if (type === 'title') {
       this.autorSel = false;
@@ -132,7 +134,7 @@ export class BookSearchComponent implements OnInit {
     }
     this.search = false;
   }
-
+  // Modals controllers
   // tslint:disable-next-line: no-shadowed-variable
   openModalByID(template: TemplateRef<any>, id: string) {
     this.id = id;
@@ -156,7 +158,20 @@ export class BookSearchComponent implements OnInit {
     this.modalRef = this.modalService.show(template);
   }
 
+  closeModal() {
+    const modalRef = this.modalService.hide(1);
+  }
+
+  // tslint:disable-next-line: no-shadowed-variable
+  openStackedModal(template: TemplateRef<any>) {
+    const modalRef = this.modal.open(template, {
+      centered: true,
+      size: 'sm'
+    });
+  }
+  // save a book in the database
   saveBook() {
+    this.book.codUser = this.userDetails.codUsuario.toString();
     this.book.isbn = this.booksID[0].volumeInfo.industryIdentifiers[0].identifier;
     this.book.titulo = this.booksID[0].volumeInfo.title;
     this.book.genero = 'Fantasía';
@@ -184,19 +199,15 @@ export class BookSearchComponent implements OnInit {
       .subscribe(res => {}, err => console.log(err));
   }
 
-  closeModal() {
-    const modalRef = this.modalService.hide(1);
-  }
-
-  // tslint:disable-next-line: no-shadowed-variable
-  openStackedModal(template: TemplateRef<any>) {
-    const modalRef = this.modal.open(template, {
-      centered: true,
-      size: 'sm'
-    });
-  }
-
   ngOnInit() {
     this.nav.show();
+    this.user.profile().subscribe(
+      user => {
+        this.userDetails = user;
+      },
+      err => {
+        console.error(err);
+      }
+    );
   }
 }

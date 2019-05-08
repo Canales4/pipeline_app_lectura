@@ -11,6 +11,7 @@ import { ServerService } from '../../../services/server.service';
   templateUrl: './book-details.component.html',
   styleUrls: ['./book-details.component.css']
 })
+// component that shows the book data from the database
 export class BookDetailsComponent implements OnInit {
 
   bookInfo;
@@ -43,13 +44,14 @@ export class BookDetailsComponent implements OnInit {
           this.book = res;
           this.bookPag = this.book[0].paginas;
           this.pag = this.book[0].paginas;
+          this.currentBookStatus = this.book[0].estado;
           console.log(this.bookInfo);
           console.log(this.book);
         },
         err => console.log(err)
       );
   }
-
+  // hover icon fuctions
   hoverFav() {
     this.favPath = '../../../../assets/icons8-add-to-favorites-64.png';
   }

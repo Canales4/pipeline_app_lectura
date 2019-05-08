@@ -3,7 +3,7 @@ import { ClubsService, Club } from '../../../../services/clubs.service';
 import { NavbarService } from '../../../../services/navbar.service';
 import { PerfilService } from 'src/app/services/perfil.service';
 import { AuthenticationService, UserDetails } from 'src/app/services/authentication.service';
-import { BsModalService, BsModalRef } from "ngx-bootstrap/modal";
+import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 
 @Component({
   selector: 'app-club',
@@ -14,7 +14,7 @@ export class ClubComponent implements OnInit {
 
   details: UserDetails;
   modalRef: BsModalRef;
-  //array para almacenar los clubs que nos trae la consulta
+  // array para almacenar los clubs que nos trae la consulta
   clubs: any = [];
 
   // Creamos un objeto Club con todos sus elementos
@@ -25,12 +25,13 @@ export class ClubComponent implements OnInit {
     // create_at: new Date(),
   };
 
+// tslint:disable-next-line: max-line-length
   constructor(private modalService: BsModalService, private clubsService: ClubsService, private nav: NavbarService, public auth: AuthenticationService, private perfilService: PerfilService) { }
 
   ngOnInit() {
-    //Activar el mostrar los clubs que existen
+    // Activar el mostrar los clubs que existen
     this.getClubs();
-    //Muestra barra de navegacion
+    // Muestra barra de navegacion
     this.nav.show();
 
     // PARA COGER LOS ELEMENTOS DEL USUARIO
@@ -44,7 +45,7 @@ export class ClubComponent implements OnInit {
     )
   }
 
-  //PARA COGER LOS ELEMENTOS DE UN CLUB
+  // PARA COGER LOS ELEMENTOS DE UN CLUB
   getClubs() {
     this.clubsService.getClubs().subscribe(
       res => {

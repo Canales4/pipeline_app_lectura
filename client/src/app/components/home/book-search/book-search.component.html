@@ -1,6 +1,6 @@
 <div class="card">
   <div class="card-header" style="text-align: center;">
-    <h1 class="display-3">Buscar Libros</h1>
+    <h1 id="title" class="display-3">Buscar Libros</h1>
   </div>
   <div class="card-body justify-content-center">
     <div class="row justify-content-center align-items-center">
@@ -21,19 +21,19 @@
           </div>
           <div *ngIf="titleSel" id="bsq1" class="col-md-6">
             <div class="form-group">
-              <input type="text" name="title" placeholder="Título" [(ngModel)]="title" class="form-control"
+              <input type="text" id="titulo" name="titulo" placeholder="Título" [(ngModel)]="title" class="form-control"
                 (keyup)="searchByTitle()" autofocus>
             </div>
           </div>
-          <div *ngIf="autorSel" id="bsq1" class="col-md-6">
+          <div *ngIf="autorSel" id="bsq2" class="col-md-6">
             <div class="form-group">
-              <input type="text" name="title" placeholder="Autor" [(ngModel)]="autor" class="form-control"
+              <input type="text" name="author" placeholder="Autor" [(ngModel)]="autor" class="form-control"
                 (keyup)="searchByAuthor()" autofocus>
             </div>
           </div>
-          <div *ngIf="isbnSel" id="bsq1" class="col-md-6">
+          <div *ngIf="isbnSel" id="bsq3" class="col-md-6">
             <div class="form-group">
-              <input type="text" name="title" placeholder="ISBN" [(ngModel)]="isbn" class="form-control"
+              <input type="text" name="isbn" placeholder="ISBN" [(ngModel)]="isbn" class="form-control"
                 (keyup)="searchByISBN()" autofocus>
             </div>
           </div>
@@ -54,7 +54,7 @@
           </div>
           <div class="card-body p-2">
             <div>
-              <p placement="right" class="m-0 p-0" ngbTooltip="{{books.volumeInfo.title}}">
+              <p id="tituloLibro" placement="right" class="m-0 p-0" ngbTooltip="{{books.volumeInfo.title}}">
                 <b>{{ (books.volumeInfo.title.length > 36)? (books.volumeInfo.title | slice:0:36) + '...':(books.volumeInfo.title) }}</b>
               </p>
             </div>
