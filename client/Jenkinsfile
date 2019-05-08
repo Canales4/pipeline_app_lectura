@@ -22,15 +22,15 @@ pipeline {
         }
         stage('Build'){
           steps {
-            parallel 'Dump .sql': {
-              sh 'cd /c/xampp/mysql/bin && ./mysqldump --user=root --databases app_lecturas > /c/Users/6001290/Desktop/jobs/AppLecturas/app_lecturas.sql && cd /c/Users/6001290/Desktop/jobs/AppLecturas && git add . && git commit -m "Actualizando BD (.sql)" && git push'
-            }, 'Server Build': {
+            parallel 'Server Build': {
               script {
                 sh 'echo hi'
               }
             }, 'Client Build': {
               sh 'cd client && npm run build'
               //sh 'cd client && npm start'
+            }, 'Dump .sql': {
+              sh 'cd /c/xampp/mysql/bin && ./mysqldump --user=root --databases app_lecturas > app_lecturas.sql && cp app_lecturas /c/Users/6001290/Desktop/jobs/AppLecturas && cd /c/Users/6001290/Desktop/jobs/AppLecturas && git add . && git commit -m "Actualizando BD (.sql)" && git push'
             }
           }
         }
