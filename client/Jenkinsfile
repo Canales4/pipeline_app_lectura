@@ -24,11 +24,21 @@ pipeline {
           steps {
             parallel 'Server Build': {
               script {
-                //sh 'cd server && npm run dev'
-                sh 'echo hi'
+                sh 'cd server && npm run dev'
               }
             }, 'Client Build': {
               sh 'cd client && npm run build'
+            }
+          }
+        }
+        stage('Test'){
+          steps {
+            parallel 'Test Client': {
+              script {
+               sh 'cd client && npm test'
+              }
+            }, 'Test Server': {
+              sh 'cd server && npm test'
             }
           }
         }
