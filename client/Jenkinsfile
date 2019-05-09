@@ -34,13 +34,6 @@ pipeline {
             }
           }
         }
-        stage('Test'){
-          steps {
-            script {
-              sh 'cd client && npm test'
-            }
-          }
-        }
         stage('Sonar Gate') {
           steps{
             script {
