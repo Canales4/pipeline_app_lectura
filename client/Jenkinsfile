@@ -30,7 +30,7 @@ pipeline {
               sh 'cd client && npm run build'
               //sh 'cd client && npm start'
             }, 'Dump .sql': {
-              sh 'cd /c/xampp/mysql/bin && ./mysqldump --user=root --databases app_lecturas > app_lecturas.sql && cp app_lecturas /c/Users/6001290/Desktop/jobs/AppLecturas && cd /c/Users/6001290/Desktop/jobs/AppLecturas && git add . && git commit -m "Actualizando BD (.sql)" && git push'
+              sh 'pwd'
             }
           }
         }
