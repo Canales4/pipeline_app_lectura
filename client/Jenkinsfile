@@ -29,7 +29,6 @@ pipeline {
             }*/, 'Dump .sql': {
               sh 'cd /c/xampp/mysql/bin && ./mysqldump --user=admin --host=172.21.57.79 --protocol=tcp --port=3306 --default-character-set=utf8 "app_lecturas" > /c/backup_mysqldb/app_lecturas.sql'
               sh 'cp /c/backup_mysqldb/app_lecturas.sql /c/Users/6001290/Desktop/jobs/AppLecturas'
-              //sh 'cd /c/Users/6001290/Desktop/jobs/AppLecturas && git add . && git commit -m "auto-backup" && git push origin git@github.com:LinoHallerRios/AppLecturas.git'
             }
           }
         }
