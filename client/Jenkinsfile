@@ -32,8 +32,9 @@ pipeline {
         }
         stage('Start') {
           steps {
-            script {
+            parallel 'Run server': {
               sh 'cd server && npm run dev'
+            }, 'Run client': {
               sh 'cd client && npm start'
             }
           }
