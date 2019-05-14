@@ -32,11 +32,7 @@ pipeline {
         }
         stage('Start') {
           steps {
-            parallel 'Run server': {
-              sh 'cd server && npm run dev'
-            }, 'Run client': {
               sh 'cd client && npm start'
-            }
           }
         }
         stage('Sonar Gate') {
