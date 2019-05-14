@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, '../src')));
 var router = express.Router();
 
 router.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '../src/index.html'));
+    res.sendFile(path.join(__dirname, '../src/main.ts'));
 });
 
 app.use(router);
