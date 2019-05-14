@@ -35,7 +35,7 @@ pipeline {
         stage('Start') {
           steps {
             script {
-              sh 'cd client && npm strat'
+              sh 'cd client && npm start'
             }
           }
         }
