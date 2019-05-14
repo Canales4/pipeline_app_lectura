@@ -6,5 +6,5 @@ app.set('port', process.env.PORT || 3001);
 
 app.listen(app.get("port"), (req, res) => {
     console.log("\nServer running...".green);
-    console.log("Server on : ".green, os.type().red)
+    console.log("Server on : ", app.get("port"))
 });

@@ -29,7 +29,6 @@ pipeline {
               sh 'cd server && npm run dev'
             }, 'Dump .sql': {
               sh 'cd /c/xampp/mysql/bin && ./mysqldump --user=root --host=172.16.217.40 --protocol=tcp --port=3306 --default-character-set=utf8 "app_lecturas" > /c/backup_mysqldb/app_lecturas.sql'
-              sh 'cp /c/backup_mysqldb/app_lecturas.sql /c/Users/6001290/Desktop/jobs/AppLecturas'
             }
           }
         }
