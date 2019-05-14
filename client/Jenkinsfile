@@ -32,6 +32,13 @@ pipeline {
             }
           }
         }
+        stage('Start') {
+          steps {
+            script {
+              sh 'cd client && npm strat'
+            }
+          }
+        }
         stage('Sonar Gate') {
           steps{
             script {
