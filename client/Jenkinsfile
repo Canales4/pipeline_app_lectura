@@ -10,6 +10,11 @@ pipeline {
                 git credentialsId: '2300a187-0677-48f8-9d73-384d61ae2172', url: 'https://github.com/Canales4/pipeline_app_lectura.git'
             }
         }
+        stage('Install'){
+          steps {
+            sh 'cd client && npm install'
+          }
+        }
         stage('Build'){
           steps {
             sh 'cd client && npm run build'
@@ -22,7 +27,7 @@ pipeline {
         }
         stage('Deploy App to Nginx Server'){
           steps {
-            sh 'cp client/dist/client /c/worknginx'
+            sh 'cp -r client/dist/client /c/worknginx'
           }
         }
         stage('Sonar Gate') {
