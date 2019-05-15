@@ -14,10 +14,10 @@ pipeline {
           steps {
             parallel 'Server Install': {
               script {
-                sh 'cd server && npm install'
+                sh 'cd server && npm run dev'
               }
             }, 'Client Install and Start': {
-              sh 'cd client && npm install && npm start'
+              sh 'cd client && npm start'
             }
           }
         }
