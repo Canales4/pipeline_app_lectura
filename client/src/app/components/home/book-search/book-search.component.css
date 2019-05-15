@@ -1,0 +1,35 @@
+.card {
+    font-family: 'Raleway', sans-serif;
+}
+
+.card h3 {
+    font-family: 'Amatic SC', cursive;
+}
+
+.card-header {
+    font-family: 'Amatic SC', cursive;
+    background-color: white;
+}
+
+#col1 {
+    margin-left: 25vh;
+}
+
+
+.image {
+    margin-left: 40vh;
+}
+
+
+@media (max-width: 600px) {
+    .image {
+        margin-left: 4vh;
+    }
+    #col1 {
+        margin-left: 0;
+    }
+    #bsq1 {
+        margin: 0;
+        padding: 0;
+    }
+}

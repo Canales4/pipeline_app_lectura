@@ -1,0 +1,56 @@
+pipeline {
+    agent any
+    tools {
+        nodejs 'node-11.10.0'
+    }
+    stages {
+        stage('SCM Checkout') {
+            steps {
+                git branch: 'development', credentialsId: 'jenk', url: 'git@github.com:LinoHallerRios/AppLecturas.git'
+            }
+        }
+        stage('Install'){
+          steps {
+            parallel 'Server Install': {
+              script {
+                sh 'cd server && npm install'
+              }
+            }, 'Client Install': {
+              sh 'cd client && npm install'
+            }
+          }
+        }
+        stage('Build'){
+          steps {
+            parallel 'Server Build': {
+              script {
+                //sh 'cd server && npm run dev'
+                sh 'echo hi'
+              }
+            }, 'Client Build': {
+              sh 'cd client && npm run build'
+            }
+          }
+        }
+        stage('Sonar Gate') {
+          steps{
+            script {
+              withSonarQubeEnv('sonar-6') {
+                sh 'cd ../.. && cd tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar33/bin && ./sonar-scanner'
+              }
+              def qg = waitForQualityGate()
+              if (qg.status != 'OK') {
+                error "Pipeline abortado por no pasar quality gates: ${qg.status}"
+              }
+            }
+          }
+        }
+        stage('IBMCloud Deploy') {
+          steps {
+            script {
+              sh 'echo Realizando deploy en Ibmcloud...'
+            }
+          }
+        }
+    }
+}

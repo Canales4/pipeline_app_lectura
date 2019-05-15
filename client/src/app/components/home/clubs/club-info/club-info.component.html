@@ -1,0 +1,92 @@
+<div class="row">
+  <div class="col-md-12 ">
+    <div class="container-fluid bg-azulc4 rounded-des font-rale">
+      <div id="mr-4" class="container pt-4">
+        <div id="mr-4" class="row animated fadeIn fast ml-8">
+
+          <!-- ICONO Y BOTONES DE ELIMINAR Y MODIFICAR -->
+          <div class="col-md-4 ">
+            <div class="container">
+              <img src=" assets/fogg-welcome-3.png " class="img-fluid rounded-icon border border-info" alt="imagenBienvenida">
+            </div>
+            <br><br>
+            <!--MODIFICAR CLUB -->
+            <div class="row animated fadeIn fast">
+              <div class="col">
+                <button type="button" (click)="openModal(modify)" class="btn btn-verdec  btn-block text-white"><img
+                    src="https://img.icons8.com/wired/32/000000/edit.png" style="padding-right: 0.5vw;" alt="iconoEditar">Modificar un
+                  club</button>
+                <ng-template #modify>
+                  <div class="modal-header">
+                    <h4 class="modal-title pull-left">Modificar un club</h4>
+                    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <!-- MODAL PARA MODIFICAR UN CLUB -->
+                  <div class="modal-body">
+                    <form>
+                      <h5>Su club se actualizara con los siguientes datos</h5>
+                      <br>
+                    </form>
+                    <div class="modal-modify-button">
+                      <button type="button" class="btn btn-danger btn-block" (click)="modalRef.hide()">Cancelar</button>
+                      <button class="btn btn-success btn-block" (click)="updateClub(clubs[0].codClub)"
+                        (click)="modalRef.hide()"> Modificar Club</button>
+                    </div>
+                  </div>
+                </ng-template>
+              </div>
+            </div>
+            <br>
+            <!--ELIMINAR CLUB -->
+            <div class="row animated fadeIn fast">
+              <div class="col">
+                <button type="button" (click)="openModal(eliminate)" class="btn btn-rojoc btn-block text-white"><img
+                    src="https://img.icons8.com/wired/32/000000/delete.png" style="padding-right: 0.5vw;" alt="iconoEliminar">Eliminar un
+                  club</button>
+                <ng-template #eliminate>
+                  <div class="modal-header">
+                    <h4 class="modal-title pull-left">Eliminar un club</h4>
+                    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <!-- MODAL PARA ELIMINAR UN CLUB -->
+                  <div class="modal-body">
+                    <form>
+                      <h5>¿Está seguro de que quiere eliminar su club?</h5>
+                      <p>Si acepta su club sera eliminado y todo lo relacionado con el desaparecera.</p>
+                      <br>
+                    </form>
+                    <div class="modal-delete-button">
+                      <button type="button" class="btn btn-danger btn-block" (click)="modalRef.hide()">Cancelar</button>
+                      <br>
+                      <a href="http://localhost:4200/home/club" style=text-decoration:none;><button class="btn btn-success btn-block"
+                          (click)="deleteClub(clubs[0].codClub)" (click)="modalRef.hide()"> Eliminar Club</button> </a>
+                    </div>
+                  </div>
+                </ng-template>
+              </div>
+            </div>
+            <br>
+          </div>
+          
+          <!-- DATOS DEL CLUB -->
+          <div class="col-md-8 mt-3">
+            <h3><strong> {{clubs[0].nomClub}} </strong>
+            </h3>
+            <hr class="bg-amarillo">
+            <p class="container">Fecha de creación: ( 00/00/0000 )
+              <!--{{ clubs[0].fecha_at }}-->
+            </p>
+            <div id="descri" class="container border border-info rounded-des pt-3 mb-3 ">
+              <h5><strong> Descripción</strong></h5>
+              <hr class="bg-info"> {{clubs[0].desClub}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
