@@ -24,13 +24,13 @@ pipeline {
         stage('Build'){
           steps {
             parallel 'Client Build': {
-              sh 'cd client && npm run build'
+              sh 'cd client && npm run build && cp dist/client /c/Program Files/Apache Software Foundation/Tomcat 8.5/webapps/applectura'
             }, 'Dump .sql': {
               sh 'cd /c/xampp/mysql/bin && ./mysqldump --user=root --host=172.16.217.40 --protocol=tcp --port=3306 --default-character-set=utf8 "app_lecturas" > /c/backup_mysqldb/app_lecturas.sql'
             }
           }
         }
-        stage('Start') {
+        /* stage('Start') {
           steps {
             parallel 'Start client': {
               sh 'cd client && npm start'
@@ -38,7 +38,7 @@ pipeline {
               sh 'cd server && npm run dev'
             }
           }
-        }
+        } */
         stage('Sonar Gate') {
           steps{
             script {
