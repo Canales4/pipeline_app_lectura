@@ -6,7 +6,8 @@ pipeline {
     stages {
         stage('SCM Checkout') {
             steps {
-                git branch: 'development', credentialsId: 'jenk', url: 'git@github.com:LinoHallerRios/AppLecturas.git'
+                //git branch: 'development', credentialsId: 'jenk', url: 'git@github.com:LinoHallerRios/AppLecturas.git'
+                git credentialsId: '2300a187-0677-48f8-9d73-384d61ae2172', url: 'https://github.com/Canales4/pipeline_app_lectura.git'
             }
         }
         stage('Install'){
@@ -22,13 +23,19 @@ pipeline {
         }
         stage('Build'){
           steps {
-            parallel 'Server Build': {
-              script {
-                //sh 'cd server && npm run dev'
-                sh 'echo hi'
-              }
-            }, 'Client Build': {
+            parallel 'Client Build': {
               sh 'cd client && npm run build'
+            }, 'Dump .sql': {
+              sh 'cd /c/xampp/mysql/bin && ./mysqldump --user=root --host=172.16.217.40 --protocol=tcp --port=3306 --default-character-set=utf8 "app_lecturas" > /c/backup_mysqldb/app_lecturas.sql'
+            }
+          }
+        }
+        stage('Start') {
+          steps {
+            parallel 'Start client': {
+              sh 'cd client && npm start'
+            }, 'Start Server': {
+              sh 'cd server && npm run dev'
             }
           }
         }
@@ -48,7 +55,7 @@ pipeline {
         stage('IBMCloud Deploy') {
           steps {
             script {
-              sh 'echo Realizando deploy en Ibmcloud...'
+              sh 'echo En proceso... '
             }
           }
         }
