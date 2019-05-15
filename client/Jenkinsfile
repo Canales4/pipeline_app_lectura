@@ -10,20 +10,19 @@ pipeline {
                 git credentialsId: '2300a187-0677-48f8-9d73-384d61ae2172', url: 'https://github.com/Canales4/pipeline_app_lectura.git'
             }
         }
-        stage('Install and Build with deploy'){
+        stage('Build'){
           steps {
-            parallel 'Server Install': {
-              script {
-                sh 'cd server && npm run dev'
-              }
-            }, 'Client Install and Start': {
-              sh 'cd client && npm start'
-            }
+            sh 'cd client && npm run build'
           }
         }
         stage('Dump .sql'){
           steps {
               sh 'cd /c/xampp/mysql/bin && ./mysqldump --user=root --host=172.16.217.40 --protocol=tcp --port=3306 --default-character-set=utf8 "app_lecturas" > /c/backup_mysqldb/app_lecturas.sql'
+          }
+        }
+        stage('Deploy App to Nginx Server'){
+          steps {
+            sh 'cp client/dist/client /c/worknginx'
           }
         }
         stage('Sonar Gate') {
