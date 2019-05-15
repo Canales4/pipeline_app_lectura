@@ -32,7 +32,7 @@ pipeline {
         }
         stage('Start') {
           steps {
-              sh 'cd client && npm run e2e'
+              sh 'cd client && npm run start'
           }
         }
         stage('Sonar Gate') {
