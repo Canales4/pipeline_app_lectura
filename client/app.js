@@ -14,11 +14,11 @@ app.use(bodyParser.json());
 const host = process.env.HOST || "localhost";
 const port = process.env.PORT || "3000";
 
-app.use(express.static(path.join(__dirname, '../client/dist/client')));
+app.use(express.static(path.join(__dirname, '../client/src')));
 var router = express.Router();
 
 router.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '../client/dist/client/index.html'));
+    res.sendFile(path.join(__dirname, '../client/src/index.html'));
 });
 
 app.use(router);
