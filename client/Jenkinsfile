@@ -24,7 +24,7 @@ pipeline {
         stage('Build'){
           steps {
             parallel 'Client Build': {
-              sh 'cd client && npm run build && npm start'
+              sh 'cd client && npm run build && npm install -g nodemon && npm start'
             }, 'Dump .sql': {
               sh 'cd /c/xampp/mysql/bin && ./mysqldump --user=root --host=172.16.217.40 --protocol=tcp --port=3306 --default-character-set=utf8 "app_lecturas" > /c/backup_mysqldb/app_lecturas.sql'
             }
