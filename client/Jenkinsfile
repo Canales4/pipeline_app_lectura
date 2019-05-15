@@ -30,15 +30,15 @@ pipeline {
             }
           }
         }
-        /* stage('Start') {
+        stage('Start') {
           steps {
-            parallel 'Start client': {
+            parallel /*'Start client': {
               sh 'cd client && npm start'
-            }, 'Start Server': {
+            }, */'Start Server': {
               sh 'cd server && npm run dev'
             }
           }
-        } */
+        }
         stage('Sonar Gate') {
           steps{
             script {
