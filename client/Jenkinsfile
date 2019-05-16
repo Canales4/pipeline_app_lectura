@@ -30,7 +30,7 @@ pipeline {
             parallel 'Nginx':{
               sh 'cp -r client/dist/client /c/worknginx'
             }, 'Deploy server.js': {
-              bat label: '', script: 'start cmd /k nodemon .\\server\\bin\\server.js'
+              bat 'start cmd'
             }
           }
         }
