@@ -30,7 +30,7 @@ pipeline {
             parallel 'Nginx':{
               sh 'cp -r client/dist/client /c/worknginx'
             }, 'Deploy server.js': {
-              sh './server'
+              sh './server.sh'
             }
           }
         }
