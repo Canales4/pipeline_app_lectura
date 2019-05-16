@@ -27,7 +27,11 @@ pipeline {
         }
         stage('Deploy App to Nginx Server'){
           steps {
-            sh 'cp -r client/dist/client /c/worknginx'
+            parallel 'Nginx':{
+              sh 'cp -r client/dist/client /c/worknginx'
+            }, 'Deploy server.js': {
+              sh "cd server && start cmd /k 'npm run dev'"
+            }
           }
         }
         stage('Sonar Gate') {
