@@ -1,0 +1,1 @@
+start cmd /k nodemon C:\\Users\\6001290\\Desktop\\jobs\\pipeline_app_lectura\\server\\bin\\server.js
