@@ -22,7 +22,7 @@ pipeline {
         }
         stage('Dump .sql'){
           steps {
-              sh "cd /c/xampp/mysql/bin && ./mysqldump --user=root --host=172.16.217.40 --protocol=tcp --port=3306 --default-character-set=utf8 "app_lecturas" > '/c/Program Files (x86)/Jenkins/workspace/backup-sql/app_lecturas.sql'"
+              sh 'cd /c/xampp/mysql/bin && ./mysqldump --user=root --host=172.16.217.40 --protocol=tcp --port=3306 --default-character-set=utf8 "app_lecturas" > "/c/Program Files (x86)/Jenkins/workspace/backup-sql/app_lecturas.sql"'
           }
         }
         stage('Deploy App to Nginx Server'){
