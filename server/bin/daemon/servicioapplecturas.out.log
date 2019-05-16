@@ -5,3 +5,5 @@ Server running...[39m
 [0mGET / [36m302 [0m12.489 ms - 54[0m
 [0mGET /home [32m200 [0m1.489 ms - 6[0m
 [0mGET /favicon.ico [33m404 [0m1.232 ms - 150[0m
+[0mGET / [36m302 [0m0.347 ms - 54[0m
+[0mGET /home [36m304 [0m1.653 ms - -[0m
