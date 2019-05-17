@@ -275,3 +275,7 @@ Server running...[39m
 [0mGET /bestbook [32m200 [0m63.774 ms - 50[0m
 [0mGET /newClub [32m200 [0m148.227 ms - 92[0m
 [0mGET /club/ [32m200 [0m3.644 ms - 171[0m
+[32m
+Server running...[39m
+[32mServer on : [39m [31mWindows_NT[39m
+[33mDB is CONNECTED[39m
