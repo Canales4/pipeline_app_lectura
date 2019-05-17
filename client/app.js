@@ -1,29 +1,36 @@
-const express = require("express");
-const http = require("http");
-const path = require("path");
-const bodyParser  = require("body-parser");
-///const methodOverride = require("method-override");
+var express = require('express');
+var path = require('path');
+var cookieParser = require('cookie-parser');
+var morgan = require('morgan');
 
+var cors = require("cors")
+var bodyParser = require("body-parser")
+
+
+var homeRouter = require('./routes/homeRouter');
+var loginRouter = require('./routes/loginRouter');
+var booksRouter = require('./routes/booksRouter');
+var profileRouter = require('./routes/profileRouter');
+var ClubRouter = require('./routes/ClubRouter');
 
 var app = express();
-var resultado = 0;
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
+app.use(express.static(path.join(__dirname, 'public')));
+app.use(morgan('dev'));
 
-const host = process.env.HOST || "localhost";
-const port = process.env.PORT || "3000";
+app.use(bodyParser.json())
+app.use(cors())
+app.use(
+    bodyParser.urlencoded({ extended: false })
+)
 
-app.use(express.static(path.join(__dirname, '../client/dist/client')));
-var router = express.Router();
+app.use('/', homeRouter);
+app.use('/', booksRouter);
+app.use('/', profileRouter);
+app.use('/loginPage', loginRouter);
+app.use('/club', ClubRouter);
 
-router.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '../client/dist/client/index.html'));
-});
-
-app.use(router);
-
-app.listen(port, function() {
-  console.log("Node server running on http://"+host+":"+port);
-
-});
+module.exports = app;
