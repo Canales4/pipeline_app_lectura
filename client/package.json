@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node app.js",
+    "start": "node C:\\devops\\servers\\Jenkins\\workspace\\pipeline_app_lectura\\server\\bin\\server.js",
     "start-dev": "ng serve --proxy-config proxy-conf.json",
     "build": "ng build",
     "test": "ng test",
