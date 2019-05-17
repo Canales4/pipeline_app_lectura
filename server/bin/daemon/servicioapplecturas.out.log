@@ -7,3 +7,271 @@ Server running...[39m
 [0mGET /favicon.ico [33m404 [0m1.232 ms - 150[0m
 [0mGET / [36m302 [0m0.347 ms - 54[0m
 [0mGET /home [36m304 [0m1.653 ms - -[0m
+[32m
+Server running...[39m
+[32mServer on : [39m [31mWindows_NT[39m
+[33mDB is CONNECTED[39m
+[0mGET / [36m302 [0m37.225 ms - 54[0m
+[0mGET /home [36m304 [0m13.919 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m1.192 ms - 150[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /bestbook [32m200 [0m45.484 ms - -[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:36:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /newClub [32m200 [0m4.420 ms - -[0m
+[0mGET / [36m302 [0m1.031 ms - 54[0m
+[0mGET /home [36m304 [0m0.491 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.157 ms - 150[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /bestbook [32m200 [0m0.647 ms - -[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:36:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /newClub [32m200 [0m0.367 ms - -[0m
+[0mGET /home/CLUB [33m404 [0m0.943 ms - 148[0m
+[0mGET /home/club [33m404 [0m0.243 ms - 148[0m
+[0mGET / [36m302 [0m0.197 ms - 54[0m
+[0mGET /home [36m304 [0m0.187 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.196 ms - 150[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /bestbook [32m200 [0m0.774 ms - -[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:36:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /newClub [32m200 [0m0.747 ms - -[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /bestbook [32m200 [0m0.508 ms - -[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:36:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /newClub [32m200 [0m0.540 ms - -[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /bestbook [32m200 [0m0.614 ms - -[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:36:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /newClub [32m200 [0m0.591 ms - -[0m
+[0mGET / [36m302 [0m0.207 ms - 54[0m
+[0mGET /home [36m304 [0m0.367 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.219 ms - 150[0m
+[0mGET /home [36m304 [0m0.488 ms - -[0m
+[32m
+Server running...[39m
+[32mServer on : [39m [31mWindows_NT[39m
+[33mDB is CONNECTED[39m
+[0mGET /home [36m304 [0m3.899 ms - -[0m
+[0mGET /home [36m304 [0m0.388 ms - -[0m
+[0mGET /bestbook [32m200 [0m63.774 ms - 50[0m
+[0mGET /newClub [32m200 [0m148.227 ms - 92[0m
+[0mGET /club/ [32m200 [0m3.644 ms - 171[0m

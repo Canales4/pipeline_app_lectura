@@ -14,3 +14,21 @@
 2019-05-16 16:32:33 - Started 15240
 2019-05-16 16:34:03 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\node-windows\lib\wrapper.js --file C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\bin\server.js --log "servicio-applecturas wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
 2019-05-16 16:34:03 - Started 6404
+2019-05-17 08:52:29 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\node-windows\lib\wrapper.js --file C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\bin\server.js --log "servicio-applecturas wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-17 08:52:29 - Started 6448
+2019-05-17 09:21:19 - Stopping servicioapplecturas.exe
+2019-05-17 09:21:19 - ProcessKill 6448
+2019-05-17 09:21:19 - Found child process: 6484 Name: conhost.exe
+2019-05-17 09:21:19 - Found child process: 6952 Name: node.exe
+2019-05-17 09:21:19 - Stopping process 6484
+2019-05-17 09:21:19 - Send SIGINT 6484
+2019-05-17 09:21:19 - SIGINT to 6484 failed - Killing as fallback
+2019-05-17 09:21:19 - Stopping process 6952
+2019-05-17 09:21:19 - Send SIGINT 6952
+2019-05-17 09:21:19 - SIGINT to 6952 failed - Killing as fallback
+2019-05-17 09:21:19 - Stopping process 6448
+2019-05-17 09:21:19 - Send SIGINT 6448
+2019-05-17 09:21:19 - SIGINT to 6448 failed - Killing as fallback
+2019-05-17 09:21:19 - Finished servicioapplecturas.exe
+2019-05-17 09:21:21 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\node-windows\lib\wrapper.js --file C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\bin\server.js --log "servicio-applecturas wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-17 09:21:21 - Started 6628

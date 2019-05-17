@@ -7,7 +7,7 @@ pipeline {
         stage('Cleanup') {
           steps{
             cleanWs()
-          }      
+          }
         }
         stage('SCM Checkout') {
             steps {
@@ -30,9 +30,9 @@ pipeline {
               sh 'cd /c/xampp/mysql/bin && ./mysqldump --user=root --host=172.16.217.40 --protocol=tcp --port=3306 --default-character-set=utf8 "app_lecturas" > "/c/Program Files (x86)/Jenkins/workspace/backup-sql/app_lecturas.sql"'
           }
         }
-        stage('Deploy App to Nginx Server'){
+        stage('Deploy Bluemix'){
           steps {
-            sh 'cp -r client/dist/client /c/worknginx'
+            sh 'ibmcloud login --apikey M5JPKr_Jg-MwO7O6mGNvShXHkSpMwcQvy1DXsg6_VCjx && ibmcloud target --cf && ibmcloud cf push'
           }
         }
         stage('Sonar Gate') {
