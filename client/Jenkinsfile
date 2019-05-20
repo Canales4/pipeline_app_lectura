@@ -32,7 +32,9 @@ pipeline {
         }
         stage('Deploy Bluemix'){
           steps {
-            sh 'ibmcloud login --apikey M5JPKr_Jg-MwO7O6mGNvShXHkSpMwcQvy1DXsg6_VCjx && ibmcloud target --cf && cd client && ibmcloud cf push applectura'
+            withCredentials([string(credentialsId: 'ApiKey', variable: 'varApiKey')]) {
+              sh 'ibmcloud login --apikey varApiKey && ibmcloud target --cf && cd client && ibmcloud cf push applectura'
+            }
           }
         }
         stage('Sonar Gate') {
