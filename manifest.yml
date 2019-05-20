@@ -1,4 +1,0 @@
-applications:
-- name: applectura
-  random-route: true
-  memory: 256M

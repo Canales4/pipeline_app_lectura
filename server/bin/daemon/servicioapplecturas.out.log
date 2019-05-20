@@ -279,3 +279,27 @@ Server running...[39m
 Server running...[39m
 [32mServer on : [39m [31mWindows_NT[39m
 [33mDB is CONNECTED[39m
+[0mGET / [36m302 [0m28.651 ms - 54[0m
+[0mGET /home [36m304 [0m8.839 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m2.208 ms - 150[0m
+[0mGET / [36m302 [0m13.799 ms - 54[0m
+[0mGET /home [36m304 [0m20.773 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.298 ms - 150[0m
+[0mGET /home/club [33m404 [0m4.706 ms - 148[0m
+[0mGET /home/ [32m200 [0m0.227 ms - 6[0m
+[0mGET / [36m302 [0m0.250 ms - 54[0m
+[0mGET /home [36m304 [0m0.349 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.213 ms - 150[0m
+[0mGET /home/clubs [33m404 [0m0.241 ms - 149[0m
+[0mGET /favicon.ico [33m404 [0m0.202 ms - 150[0m
+[32m
+Server running...[39m
+[32mServer on : [39m [31mWindows_NT[39m
+[33mDB is CONNECTED[39m
+[32m
+Server running...[39m
+[32mServer on : [39m [31mWindows_NT[39m
+[33mDB is CONNECTED[39m
+[0mGET / [36m302 [0m9.079 ms - 54[0m
+[0mGET /home [36m304 [0m5.455 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.849 ms - 150[0m
