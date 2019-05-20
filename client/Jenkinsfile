@@ -33,7 +33,7 @@ pipeline {
         stage('Deploy Bluemix'){
           steps {
             withCredentials([string(credentialsId: 'ApiKey', variable: 'varApiKey')]) {
-              sh "ibmcloud login --apikey 'varApiKey' && ibmcloud target --cf && cd client && ibmcloud cf push applectura"
+              sh 'ibmcloud login --apikey 'varApiKey' && ibmcloud target --cf && cd client && ibmcloud cf push applectura'
             }
           }
         }
