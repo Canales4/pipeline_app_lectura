@@ -1,4 +1,7 @@
 applications:
 - name: applectura
   random-route: true
-  memory: 256M
+  memory: 128M
+- name: applectura-server
+  random-route: true
+  memory: 128M
