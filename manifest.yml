@@ -1,0 +1,8 @@
+applications:
+- name: applectura
+  random-route: true
+  memory: 128M
+  
+- name: serv-applectura
+  random-route: true
+  memory: 64M
