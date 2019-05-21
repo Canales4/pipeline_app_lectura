@@ -10,10 +10,6 @@ var resultado = 0;
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.get("/api/*", function(req, res){
-
-});
-
 const host = process.env.HOST || "localhost";
 const port = process.env.PORT || "3000";
 
@@ -31,5 +27,4 @@ app.use(router);
 
 app.listen(port, function() {
   console.log("Node server running on http://"+host+":"+port);
-
 });
