@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, '../app/dist/client')));
 var router = express.Router();
 
 router.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, 'https://applectura-server.eu-gb.mybluemix.net'));
+    res.sendFile(path.join(__dirname, '../app/dist/client/index.html'));
 });
 
 app.use(router);
