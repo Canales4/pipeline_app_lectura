@@ -3,12 +3,6 @@ const http = require("http");
 const path = require("path");
 const bodyParser  = require("body-parser");
 ///const methodOverride = require("method-override");
-var request = require("request");
-
-app.get('/', function(req,res) {
-  var newurl = 'https://applectura-server.eu-gb.mybluemix.net/';
-  request(newurl).pipe(res);
-});
 
 var app = express();
 var resultado = 0;
@@ -23,7 +17,7 @@ app.use(express.static(path.join(__dirname, '../app/dist/client')));
 var router = express.Router();
 
 router.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '../app/dist/client/index.html'));
+    res.sendFile(path.join(__dirname, 'https://applectura-server.eu-gb.mybluemix.net/'));
 });
 
 app.use(router);
