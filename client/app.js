@@ -3,7 +3,12 @@ const http = require("http");
 const path = require("path");
 const bodyParser  = require("body-parser");
 ///const methodOverride = require("method-override");
+var request = require("request");
 
+app.get('/', function(req,res) {
+  var newurl = 'https://applectura-server.eu-gb.mybluemix.net/';
+  request(newurl).pipe(res);
+});
 
 var app = express();
 var resultado = 0;
