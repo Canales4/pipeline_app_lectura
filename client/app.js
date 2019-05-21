@@ -11,8 +11,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 
-const host = process.env.HOST || "localhost";
-const port = process.env.PORT || "3001";
+const host = process.env.HOST || "applectura.eu-gb.mybluemix.net";
+//const port = process.env.PORT || "3001";
 
 app.use(express.static(path.join(__dirname, '../app/dist/client')));
 var router = express.Router();
@@ -24,6 +24,6 @@ router.get('/', function(req, res) {
 app.use(router);
 
 app.listen(port, function() {
-  console.log("Node server running on http://"+host+":"+port);
+  console.log("Node server running on http://"+host);
 
 });
