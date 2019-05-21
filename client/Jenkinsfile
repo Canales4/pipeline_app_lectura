@@ -18,6 +18,7 @@ pipeline {
         stage('Install'){
           steps {
             sh 'cd client && npm install'
+            sh 'cd server && npm install'
           }
         }
         stage('Build'){
@@ -34,6 +35,7 @@ pipeline {
           steps {
             withCredentials([string(credentialsId: 'ApiKey', variable: 'varApiKey')]) {
               sh 'ibmcloud login --apikey $varApiKey && ibmcloud target --cf && cd client && ibmcloud cf push applectura'
+              sh 'ibmcloud login --apikey $varApiKey && ibmcloud target --cf && cd server && ibmcloud cf push applectura-server'
             }
           }
         }
