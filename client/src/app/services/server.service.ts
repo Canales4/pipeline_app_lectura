@@ -9,7 +9,7 @@ import { Data } from '../models/Data';
 // service for the api rest server
 export class ServerService {
 
-  API_URI = 'http://localhost:3000';
+  API_URI = 'https://applectura-server.eu-gb.mybluemix.net';
 
   constructor(private http: HttpClient, ) { }
 

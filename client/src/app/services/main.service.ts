@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class MainService {
 
-API_URI = 'http://localhost:3000';
+API_URI = 'https://applectura-server.eu-gb.mybluemix.net';
 
   constructor(private http: HttpClient) { }
 
@@ -17,11 +17,11 @@ API_URI = 'http://localhost:3000';
   }
 
   // Devolvemos la información del libro con la mayor puntuación de nuestra base de datos.
-  
+
   getBestBook() {
     return this.http.get(`${this.API_URI}/bestbook`);
   }
- 
+
   getNewClub() {
     return this.http.get(`${this.API_URI}/newClub`);
   }
@@ -29,14 +29,14 @@ API_URI = 'http://localhost:3000';
   mandoFavorito(codLibro, codUsuario) {
 
     //Creo el objeto con los datos que recibo del component
-    
+
     let data = {
       codLibro: codLibro,
       codUsuario: codUsuario
     };
 
     //Por el return mando el post indicando la ruta y el objeto que le paso,esto va dirigido al homeRouter.js
-  
+
     return this.http.post(`${this.API_URI}/favoritos`, data);
   }
 

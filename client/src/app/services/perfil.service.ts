@@ -7,9 +7,9 @@ import { Profile } from '../models/Profile';
   providedIn: 'root'
 })
 export class PerfilService {
-  API_URI = 'http://localhost:3000';
+  API_URI = 'https://applectura-server.eu-gb.mybluemix.net';
 
-  // DEFINIR 
+  // DEFINIR
 
   public profile = {
     codUsuario: null,

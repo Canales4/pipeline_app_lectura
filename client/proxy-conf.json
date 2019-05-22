@@ -1,6 +1,6 @@
 {
     "/loginPage":{
-        "target":"http://localhost:3000",
+        "target":"https://applectura-server.eu-gb.mybluemix.net",
         "secure":false
     }
 }

@@ -19,7 +19,7 @@ export class GoogleSearchService {
   }
 
   getTextByTitle(title: string) {
-    return this.httpClient.get(`localhost:3000/home/wiki/${title}`);
+    return this.httpClient.get(`https://applectura-server.eu-gb.mybluemix.net/home/wiki/${title}`);
   }
 
 

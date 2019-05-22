@@ -20,7 +20,7 @@ export class ClubsService {
     desClub: null,
   }
 
-  API_URI = 'http://localhost:3000/club'
+  API_URI = 'https://applectura-server.eu-gb.mybluemix.net/club'
 
   constructor(private http: HttpClient) { }
 
@@ -53,4 +53,3 @@ export class ClubsService {
     return this.http.put(`${this.API_URI}/${id}`, updateClub);
   }
 }
-
