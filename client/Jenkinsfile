@@ -1,3 +1,5 @@
+@Library('utils') _
+
 pipeline {
     agent any
     tools {
@@ -12,9 +14,7 @@ pipeline {
         stage('SCM Checkout') {
             steps {
               script {
-                @Library('CanLibrary') _
-                def g = new org.foo.CheckOuts()
-                g.checkOutGithubSSH("LinoHallerRios","AppLecturas","jenk","development")
+                CheckOuts.checkOutSSHGit('development','jenk','LinoHallerRios','AppLecturas')
               }
                 //git branch: 'development', credentialsId: 'jenk', url: 'git@github.com:LinoHallerRios/AppLecturas.git'
                 //git credentialsId: '2300a187-0677-48f8-9d73-384d61ae2172', url: 'https://github.com/Canales4/pipeline_app_lectura.git'
