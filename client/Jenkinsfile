@@ -13,7 +13,7 @@ pipeline {
         stage('SCM Checkout') {
             steps {
               script {
-                checkOutGitSSH(null,'jenk','LinoHallerRios','AppLecturas')
+                checkOutGitSSH('development','jenk','LinoHallerRios','AppLecturas')
               }
               //git credentialsId: '2300a187-0677-48f8-9d73-384d61ae2172', url: 'https://github.com/Canales4/pipeline_app_lectura.git'
             }
