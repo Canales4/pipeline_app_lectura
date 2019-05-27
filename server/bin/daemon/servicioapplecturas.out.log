@@ -1697,3 +1697,7 @@ Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`
 Server running...[39m
 [32mServer on : [39m [31mWindows_NT[39m
 [33mDB is CONNECTED[39m
+[32m
+Server running...[39m
+[32mServer on : [39m [31mWindows_NT[39m
+[33mDB is CONNECTED[39m
