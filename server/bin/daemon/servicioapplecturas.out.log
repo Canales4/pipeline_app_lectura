@@ -303,3 +303,15 @@ Server running...[39m
 [0mGET / [36m302 [0m9.079 ms - 54[0m
 [0mGET /home [36m304 [0m5.455 ms - -[0m
 [0mGET /favicon.ico [33m404 [0m0.849 ms - 150[0m
+[32m
+Server running...[39m
+[32mServer on : [39m [31mWindows_NT[39m
+[33mDB is CONNECTED[39m
+[0mGET / [36m302 [0m14.949 ms - 54[0m
+[0mGET /home [32m200 [0m2.528 ms - 6[0m
+[0mGET / [36m302 [0m0.327 ms - 54[0m
+[0mGET /home [36m304 [0m0.496 ms - -[0m
+[32m
+Server running...[39m
+[32mServer on : [39m [31mWindows_NT[39m
+[33mDB is CONNECTED[39m

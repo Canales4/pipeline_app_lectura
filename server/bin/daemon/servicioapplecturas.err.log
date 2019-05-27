@@ -892,3 +892,49 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the cli
     at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
     at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
     at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:482:11)
+    at ServerResponse.header (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\response.js:170:12)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:9:9
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:482:11)
+    at ServerResponse.header (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\response.js:170:12)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:9:9
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
