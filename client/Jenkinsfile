@@ -30,7 +30,9 @@ pipeline {
         }
         stage('Dump .sql'){
           steps {
-              sh 'cd /c/xampp/mysql/bin && ./mysqldump --user=root --host=localhost --protocol=tcp --port=3306 --default-character-set=utf8 "app_lecturas" > "/c/devops/backup-sql/app_lecturas.sql"'
+            script {
+              dumpXampp('root','localhost','3306','app_lecturas','/c/devops/backup-sql/app_lecturas.sql')
+            }
           }
         }
         stage('Deploy Bluemix'){
