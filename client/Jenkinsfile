@@ -13,7 +13,8 @@ pipeline {
         stage('SCM Checkout') {
             steps {
               script {
-                checkOutGitSSH('development','jenk','LinoHallerRios','AppLecturas')
+                //checkOutGitSSH('jenk','LinoHallerRios','AppLecturas')
+                checkOutGitHTTP('Canales4','Canales4','pipeline_app_lectura')
               }
             }
         }

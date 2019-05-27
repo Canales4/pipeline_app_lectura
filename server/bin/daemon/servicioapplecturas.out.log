@@ -1693,3 +1693,7 @@ EL elemento decoded contiene[object Object]
 Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
 [0mGET /loginPage/profile [36m304 [0m50.711 ms - -[0m
 [0mGET /books/10 [36m304 [0m47.825 ms - -[0m
+[32m
+Server running...[39m
+[32mServer on : [39m [31mWindows_NT[39m
+[33mDB is CONNECTED[39m

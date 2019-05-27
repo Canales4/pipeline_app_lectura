@@ -1359,3 +1359,22 @@ TokenExpiredError: jwt expired
     at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
     at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
     at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+events.js:173
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:112:13)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:97:28)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:202:15)
+    at endReadableNT (_stream_readable.js:1129:12)
+    at processTicksAndRejections (internal/process/next_tick.js:76:17)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:425:8)
+    at Protocol.emit (events.js:197:13)
+    at Protocol._delegateError (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:390:10)
+    at Protocol.end (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:116:8)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:97:28)
+    [... lines matching original stack trace ...]
+    at processTicksAndRejections (internal/process/next_tick.js:76:17)
