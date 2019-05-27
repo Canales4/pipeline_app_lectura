@@ -20,7 +20,6 @@ pipeline {
         stage('Install'){
           steps {
             sh 'cd client && npm install'
-            sh 'cd server && npm install'
           }
         }
         stage('Build'){

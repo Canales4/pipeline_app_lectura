@@ -315,3 +315,1381 @@ Server running...[39m
 Server running...[39m
 [32mServer on : [39m [31mWindows_NT[39m
 [33mDB is CONNECTED[39m
+[0mGET / [36m302 [0m94.560 ms - 54[0m
+[0mGET /home [36m304 [0m13.955 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m4.028 ms - 150[0m
+[0mGET /profile/lastFavorite/8 [33m404 [0m13.369 ms - 161[0m
+[0mGET /favicon.ico [33m404 [0m0.408 ms - 150[0m
+[0mGET /profile/lastFavorite/10 [33m404 [0m0.256 ms - 162[0m
+[0mGET /profile/lastFavorite/15 [33m404 [0m0.326 ms - 162[0m
+[0mGET /profile/lastFavorite/1 [33m404 [0m0.269 ms - 161[0m
+[0mGET /favicon.ico [33m404 [0m1.574 ms - 150[0m
+[0mGET /profile/lastFavorite/2 [33m404 [0m0.376 ms - 161[0m
+[0mGET /profile/lastFavorite/10 [33m404 [0m0.310 ms - 162[0m
+[0mGET /favicon.ico [33m404 [0m2.060 ms - 150[0m
+[0mGET /profile/lastFavorite/1 [33m404 [0m0.390 ms - 161[0m
+[0mGET /profile/lastFavorite/1 [33m404 [0m0.187 ms - 161[0m
+[0mGET /profile/lastFavorite/1 [33m404 [0m0.219 ms - 161[0m
+[0mGET /profile/lastFavorite/1 [33m404 [0m0.176 ms - 161[0m
+[0mGET / [36m302 [0m9.032 ms - 54[0m
+[0mGET /home [36m304 [0m3.700 ms - -[0m
+[0mGET /club/listS/socios [33m404 [0m8.882 ms - 156[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m16.048 ms - 0[0m
+[0mGET /loginPage/profile [31m500 [0m211.095 ms - 3149[0m
+[0mGET /lastBookAdd [33m404 [0m0.452 ms - 150[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.679 ms - 0[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /bestbook [32m200 [0m105.270 ms - -[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:36:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /newClub [32m200 [0m2.625 ms - -[0m
+[0mGET /mostRead [33m404 [0m0.321 ms - 147[0m
+[0mGET /loginPage/profile [31m500 [0m8.622 ms - 3149[0m
+[0mGET /lastBookAdd [33m404 [0m0.316 ms - 150[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /bestbook [32m200 [0m15.548 ms - -[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.183 ms - 0[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:36:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /newClub [32m200 [0m0.526 ms - -[0m
+[0mGET /mostRead [33m404 [0m0.408 ms - 147[0m
+[0mGET /loginPage/profile [31m500 [0m1.366 ms - 3149[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.143 ms - 0[0m
+[0mGET /loginPage/profile [31m500 [0m1.110 ms - 3149[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.112 ms - 0[0m
+[0mGET /loginPage/profile [31m500 [0m0.947 ms - 3149[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.202 ms - 0[0m
+[0mGET /loginPage/profile [31m500 [0m1.010 ms - 3149[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.131 ms - 0[0m
+[0mGET /lastBookAdd [33m404 [0m0.371 ms - 150[0m
+[0mGET /loginPage/profile [31m500 [0m1.045 ms - 3149[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:36:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /newClub [32m200 [0m1.520 ms - -[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /bestbook [32m200 [0m0.548 ms - -[0m
+[0mGET /mostRead [33m404 [0m0.250 ms - 147[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.069 ms - 0[0m
+[0mGET /loginPage/profile [31m500 [0m2.580 ms - 3149[0m
+[0mGET /club/listS/socios [33m404 [0m0.475 ms - 156[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.119 ms - 0[0m
+[0mGET /loginPage/profile [31m500 [0m0.861 ms - 3149[0m
+[0mOPTIONS /loginPage/login [32m204 [0m0.070 ms - 0[0m
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`email` = 'm@gmail.com' AND `user`.`contrasena` = '1234' LIMIT 1;
+pass is: 1234
+[0mPOST /loginPage/login [32m200 [0m711.697 ms - 432[0m
+[0mGET /lastBookAdd [33m404 [0m0.293 ms - 150[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /bestbook [32m200 [0m0.527 ms - -[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:36:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /newClub [32m200 [0m0.606 ms - -[0m
+[0mGET /mostRead [33m404 [0m0.270 ms - 147[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.130 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [32m200 [0m52.579 ms - 220[0m
+[0mGET /iconHome/10 [33m404 [0m0.308 ms - 150[0m
+[0mGET /lastFavoriteISBN/10 [33m404 [0m0.222 ms - 158[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.120 ms - 0[0m
+[0mGET /lastBookAdd [33m404 [0m0.301 ms - 150[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /bestbook [32m200 [0m0.568 ms - -[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:36:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /newClub [32m200 [0m0.542 ms - -[0m
+[0mGET /mostRead [33m404 [0m0.222 ms - 147[0m
+[0mGET /loginPage/profile [36m304 [0m52.000 ms - -[0m
+[0mGET /iconHome/10 [33m404 [0m0.173 ms - 150[0m
+[0mGET /lastFavoriteISBN/10 [33m404 [0m0.927 ms - 158[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.097 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m53.539 ms - -[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\booksRouter.js:7:33)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:635:15
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:260:14) code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /books/10 [32m200 [0m6.694 ms - -[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.092 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m71.481 ms - -[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.205 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m50.786 ms - -[0m
+[0mGET /profile/lastFavorite/10 [33m404 [0m0.377 ms - 162[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.123 ms - 0[0m
+[0mGET /lastBookAdd [33m404 [0m0.303 ms - 150[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /bestbook [32m200 [0m0.934 ms - -[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:36:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /newClub [32m200 [0m0.404 ms - -[0m
+[0mGET /mostRead [33m404 [0m0.164 ms - 147[0m
+[0mGET /loginPage/profile [36m304 [0m49.765 ms - -[0m
+[0mGET /iconHome/10 [33m404 [0m0.177 ms - 150[0m
+[0mGET /lastFavoriteISBN/10 [33m404 [0m0.148 ms - 158[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.071 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m50.285 ms - -[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\booksRouter.js:7:33)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:635:15
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:260:14) code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /books/10 [32m200 [0m0.533 ms - -[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.441 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m51.211 ms - -[0m
+[0mGET /profile/lastFavorite/10 [33m404 [0m0.302 ms - 162[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.074 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m50.581 ms - -[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\booksRouter.js:7:33)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:635:15
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:260:14) code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /books/10 [32m200 [0m0.404 ms - -[0m
+[0mGET /club/listS/socios [33m404 [0m0.357 ms - 156[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.072 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m50.177 ms - -[0m
+[0mGET /club/list/10 [33m404 [0m0.241 ms - 151[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.080 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m63.725 ms - -[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\booksRouter.js:7:33)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:635:15
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:260:14) code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /books/10 [32m200 [0m0.378 ms - -[0m
+[0mGET /club/listS/socios [33m404 [0m0.246 ms - 156[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.074 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m49.735 ms - -[0m
+[0mGET /club/list/10 [33m404 [0m0.237 ms - 151[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.077 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m71.514 ms - -[0m
+[0mGET /profile/lastFavorite/10 [33m404 [0m0.170 ms - 162[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.070 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m50.554 ms - -[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.096 ms - 0[0m
+[0mGET /lastBookAdd [33m404 [0m0.197 ms - 150[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /bestbook [32m200 [0m0.518 ms - -[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:36:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7 code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+[0mGET /newClub [32m200 [0m0.580 ms - -[0m
+[0mGET /mostRead [33m404 [0m0.243 ms - 147[0m
+[0mGET /loginPage/profile [36m304 [0m58.095 ms - -[0m
+[0mGET /iconHome/10 [33m404 [0m0.281 ms - 150[0m
+[0mGET /lastFavoriteISBN/10 [33m404 [0m0.467 ms - 158[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.068 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m49.731 ms - -[0m
+[0mGET /profile/lastFavorite/10 [33m404 [0m0.180 ms - 162[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.086 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m247.316 ms - -[0m
+[0mOPTIONS /books [32m204 [0m0.067 ms - 0[0m
+{ Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:200:16)
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.post (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\booksRouter.js:42:21)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:635:15
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12) code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR', fatal: false }
+undefined
+[32m
+Server running...[39m
+[32mServer on : [39m [31mWindows_NT[39m
+[33mDB is CONNECTED[39m
+[0mOPTIONS /loginPage/profile [32m204 [0m2.705 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m552.107 ms - -[0m
+[0mGET /books/10 [32m200 [0m50.831 ms - 1199[0m
+[0mGET /lastBookAdd [33m404 [0m2.701 ms - 150[0m
+[0mGET /mostRead [33m404 [0m0.527 ms - 147[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.252 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+{ Error: ER_NO_SUCH_TABLE: Table 'sql2292789.Libros' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'sql2292789.Libros' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT codLibro AS idLibro, ISBN, MAX(puntuacion) AS puntos FROM titulo T RIGHT JOIN libros L ON(T.codTitulo = L.codTitulo)WHERE puntuacion=(SELECT MAX(puntuacion) FROM Libros)' }
+[0mGET /bestbook [32m200 [0m62.512 ms - -[0m
+[0mGET /loginPage/profile [36m304 [0m57.161 ms - -[0m
+[0mGET /iconHome/10 [33m404 [0m0.689 ms - 150[0m
+[0mGET /lastFavoriteISBN/10 [33m404 [0m0.283 ms - 158[0m
+[0mGET /newClub [32m200 [0m115.626 ms - 84[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.070 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m49.113 ms - -[0m
+[0mGET /books/10 [32m200 [0m48.797 ms - 1199[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.167 ms - 0[0m
+[0mGET /lastBookAdd [33m404 [0m0.275 ms - 150[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /mostRead [33m404 [0m0.141 ms - 147[0m
+{ Error: ER_NO_SUCH_TABLE: Table 'sql2292789.Libros' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'sql2292789.Libros' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT codLibro AS idLibro, ISBN, MAX(puntuacion) AS puntos FROM titulo T RIGHT JOIN libros L ON(T.codTitulo = L.codTitulo)WHERE puntuacion=(SELECT MAX(puntuacion) FROM Libros)' }
+[0mGET /bestbook [32m200 [0m48.219 ms - -[0m
+[0mGET /loginPage/profile [36m304 [0m52.732 ms - -[0m
+[0mGET /iconHome/10 [33m404 [0m0.168 ms - 150[0m
+[0mGET /lastFavoriteISBN/10 [33m404 [0m0.129 ms - 158[0m
+[0mGET /newClub [32m200 [0m95.299 ms - 84[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.071 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m49.432 ms - -[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.077 ms - 0[0m
+[0mGET /lastBookAdd [33m404 [0m0.177 ms - 150[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /mostRead [33m404 [0m0.183 ms - 147[0m
+{ Error: ER_NO_SUCH_TABLE: Table 'sql2292789.Libros' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'sql2292789.Libros' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT codLibro AS idLibro, ISBN, MAX(puntuacion) AS puntos FROM titulo T RIGHT JOIN libros L ON(T.codTitulo = L.codTitulo)WHERE puntuacion=(SELECT MAX(puntuacion) FROM Libros)' }
+[0mGET /bestbook [32m200 [0m48.082 ms - -[0m
+[0mGET /loginPage/profile [36m304 [0m51.029 ms - -[0m
+[0mGET /iconHome/10 [33m404 [0m0.175 ms - 150[0m
+[0mGET /lastFavoriteISBN/10 [33m404 [0m0.348 ms - 158[0m
+[0mGET /newClub [32m200 [0m94.019 ms - 84[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.075 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m58.900 ms - -[0m
+[0mGET /books/10 [32m200 [0m58.833 ms - 1199[0m
+[0mGET /club/listS/socios [33m404 [0m0.464 ms - 156[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.075 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m50.200 ms - -[0m
+[0mGET /club/list/10 [33m404 [0m0.227 ms - 151[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.071 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m50.202 ms - -[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.096 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m50.759 ms - -[0m
+[0mGET /profile/lastFavorite/10 [33m404 [0m0.185 ms - 162[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.074 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m57.882 ms - -[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.182 ms - 0[0m
+[0mGET /lastBookAdd [33m404 [0m0.352 ms - 150[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /mostRead [33m404 [0m0.153 ms - 147[0m
+{ Error: ER_NO_SUCH_TABLE: Table 'sql2292789.Libros' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'sql2292789.Libros' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT codLibro AS idLibro, ISBN, MAX(puntuacion) AS puntos FROM titulo T RIGHT JOIN libros L ON(T.codTitulo = L.codTitulo)WHERE puntuacion=(SELECT MAX(puntuacion) FROM Libros)' }
+[0mGET /bestbook [32m200 [0m49.208 ms - -[0m
+[0mGET /loginPage/profile [36m304 [0m49.686 ms - -[0m
+[0mGET /iconHome/10 [33m404 [0m1.162 ms - 150[0m
+[0mGET /lastFavoriteISBN/10 [33m404 [0m0.415 ms - 158[0m
+[0mGET /newClub [32m200 [0m105.545 ms - 84[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.080 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m49.186 ms - -[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.101 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /lastBookAdd [33m404 [0m0.154 ms - 150[0m
+[0mGET /mostRead [33m404 [0m0.127 ms - 147[0m
+{ Error: ER_NO_SUCH_TABLE: Table 'sql2292789.Libros' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'sql2292789.Libros' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT codLibro AS idLibro, ISBN, MAX(puntuacion) AS puntos FROM titulo T RIGHT JOIN libros L ON(T.codTitulo = L.codTitulo)WHERE puntuacion=(SELECT MAX(puntuacion) FROM Libros)' }
+[0mGET /bestbook [32m200 [0m48.995 ms - -[0m
+[0mGET /loginPage/profile [36m304 [0m52.800 ms - -[0m
+[0mGET /iconHome/10 [33m404 [0m0.246 ms - 150[0m
+[0mGET /lastFavoriteISBN/10 [33m404 [0m0.229 ms - 158[0m
+[0mGET /newClub [32m200 [0m96.085 ms - 84[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.120 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m49.493 ms - -[0m
+[0mGET /books/10 [32m200 [0m318.815 ms - 1199[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.068 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m49.594 ms - -[0m
+[0mGET /books/isbn/9781302505080 [32m200 [0m49.394 ms - 1161[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.161 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m49.778 ms - -[0m
+[0mGET /profile/lastFavorite/10 [33m404 [0m0.184 ms - 162[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.073 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m49.473 ms - -[0m
+[0mGET /books/10 [32m200 [0m47.825 ms - 1199[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.073 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m49.278 ms - -[0m
+[0mOPTIONS /books [32m204 [0m0.071 ms - 0[0m
+[0mPOST /books [0m- [0m- ms - -[0m
+[]
+esta vacio
+true
+[0mOPTIONS /loginPage/profile [32m204 [0m0.080 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m249.708 ms - -[0m
+[0mGET /books/10 [32m200 [0m48.763 ms - 1545[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.067 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m50.642 ms - -[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.084 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m50.112 ms - -[0m
+[0mGET /profile/lastFavorite/10 [33m404 [0m0.490 ms - 162[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.077 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m49.389 ms - -[0m
+[0mGET /books/10 [32m200 [0m47.799 ms - 1545[0m
+[0mGET /club/listS/socios [33m404 [0m0.553 ms - 156[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.238 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m49.988 ms - -[0m
+[0mGET /club/list/10 [33m404 [0m0.221 ms - 151[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.166 ms - 0[0m
+[0mGET /lastBookAdd [33m404 [0m0.155 ms - 150[0m
+[0mGET /mostRead [33m404 [0m0.349 ms - 147[0m
+EL elemento decoded contiene[object Object]
+{ Error: ER_NO_SUCH_TABLE: Table 'sql2292789.Libros' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'sql2292789.Libros' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT codLibro AS idLibro, ISBN, MAX(puntuacion) AS puntos FROM titulo T RIGHT JOIN libros L ON(T.codTitulo = L.codTitulo)WHERE puntuacion=(SELECT MAX(puntuacion) FROM Libros)' }
+[0mGET /bestbook [32m200 [0m48.295 ms - -[0m
+[0mGET /newClub [32m200 [0m93.921 ms - 84[0m
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m241.520 ms - -[0m
+[0mGET /iconHome/10 [33m404 [0m0.373 ms - 150[0m
+[0mGET /lastFavoriteISBN/10 [33m404 [0m0.622 ms - 158[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.112 ms - 0[0m
+[0mGET /lastBookAdd [33m404 [0m0.229 ms - 150[0m
+[0mGET /mostRead [33m404 [0m0.399 ms - 147[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+{ Error: ER_NO_SUCH_TABLE: Table 'sql2292789.Libros' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'sql2292789.Libros' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT codLibro AS idLibro, ISBN, MAX(puntuacion) AS puntos FROM titulo T RIGHT JOIN libros L ON(T.codTitulo = L.codTitulo)WHERE puntuacion=(SELECT MAX(puntuacion) FROM Libros)' }
+[0mGET /bestbook [32m200 [0m49.009 ms - -[0m
+[0mGET /loginPage/profile [36m304 [0m52.102 ms - -[0m
+[0mGET /iconHome/10 [33m404 [0m0.429 ms - 150[0m
+[0mGET /lastFavoriteISBN/10 [33m404 [0m0.323 ms - 158[0m
+[0mGET /newClub [32m200 [0m94.120 ms - 84[0m
+[32m
+Server running...[39m
+[32mServer on : [39m [31mWindows_NT[39m
+[33mDB is CONNECTED[39m
+[0mOPTIONS /loginPage/profile [32m204 [0m2.722 ms - 0[0m
+[0mGET /lastBookAdd [33m404 [0m2.845 ms - 150[0m
+[0mGET /mostRead [33m404 [0m0.446 ms - 147[0m
+[0mGET /loginPage/profile [31m500 [0m5.214 ms - 3149[0m
+{ Error: ER_NO_SUCH_TABLE: Table 'sql2292789.Libros' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'sql2292789.Libros' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT codLibro AS idLibro, ISBN, MAX(puntuacion) AS puntos FROM titulo T RIGHT JOIN libros L ON(T.codTitulo = L.codTitulo)WHERE puntuacion=(SELECT MAX(puntuacion) FROM Libros)' }
+[0mGET /bestbook [32m200 [0m55.343 ms - -[0m
+[0mGET /newClub [32m200 [0m105.741 ms - 84[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.245 ms - 0[0m
+[0mGET /loginPage/profile [31m500 [0m1.047 ms - 3149[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.118 ms - 0[0m
+[0mGET /lastBookAdd [33m404 [0m0.464 ms - 150[0m
+[0mGET /loginPage/profile [31m500 [0m1.377 ms - 3149[0m
+[0mGET /mostRead [33m404 [0m0.391 ms - 147[0m
+{ Error: ER_NO_SUCH_TABLE: Table 'sql2292789.Libros' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'sql2292789.Libros' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT codLibro AS idLibro, ISBN, MAX(puntuacion) AS puntos FROM titulo T RIGHT JOIN libros L ON(T.codTitulo = L.codTitulo)WHERE puntuacion=(SELECT MAX(puntuacion) FROM Libros)' }
+[0mGET /bestbook [32m200 [0m48.446 ms - -[0m
+[0mGET /newClub [32m200 [0m88.592 ms - 84[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.071 ms - 0[0m
+[0mGET /loginPage/profile [31m500 [0m0.479 ms - 3149[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.109 ms - 0[0m
+[0mGET /loginPage/profile [31m500 [0m0.632 ms - 3149[0m
+[0mGET /club/listS/socios [33m404 [0m0.544 ms - 156[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.074 ms - 0[0m
+[0mGET /loginPage/profile [31m500 [0m1.198 ms - 3149[0m
+[0mOPTIONS /loginPage/login [32m204 [0m0.070 ms - 0[0m
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`email` = 'm@gmail.com' AND `user`.`contrasena` = '1234' LIMIT 1;
+pass is: 1234
+[0mPOST /loginPage/login [32m200 [0m617.803 ms - 432[0m
+[0mGET /lastBookAdd [33m404 [0m1.866 ms - 150[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.096 ms - 0[0m
+[0mGET /mostRead [33m404 [0m0.156 ms - 147[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+{ Error: ER_NO_SUCH_TABLE: Table 'sql2292789.Libros' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'sql2292789.Libros' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT codLibro AS idLibro, ISBN, MAX(puntuacion) AS puntos FROM titulo T RIGHT JOIN libros L ON(T.codTitulo = L.codTitulo)WHERE puntuacion=(SELECT MAX(puntuacion) FROM Libros)' }
+[0mGET /bestbook [32m200 [0m47.660 ms - -[0m
+[0mGET /loginPage/profile [32m200 [0m52.509 ms - 220[0m
+[0mGET /iconHome/10 [33m404 [0m0.235 ms - 150[0m
+[0mGET /lastFavoriteISBN/10 [33m404 [0m0.341 ms - 158[0m
+[0mGET /newClub [32m200 [0m93.109 ms - 84[0m
+[0mGET /club/listS/socios [33m404 [0m0.348 ms - 156[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.096 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m242.787 ms - -[0m
+[0mGET /club/list/10 [33m404 [0m0.207 ms - 151[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.186 ms - 0[0m
+[0mGET /lastBookAdd [33m404 [0m0.268 ms - 150[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /mostRead [33m404 [0m0.481 ms - 147[0m
+{ Error: ER_NO_SUCH_TABLE: Table 'sql2292789.Libros' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'sql2292789.Libros' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT codLibro AS idLibro, ISBN, MAX(puntuacion) AS puntos FROM titulo T RIGHT JOIN libros L ON(T.codTitulo = L.codTitulo)WHERE puntuacion=(SELECT MAX(puntuacion) FROM Libros)' }
+[0mGET /bestbook [32m200 [0m49.194 ms - -[0m
+[0mGET /loginPage/profile [36m304 [0m52.933 ms - -[0m
+[0mGET /iconHome/10 [33m404 [0m0.291 ms - 150[0m
+[0mGET /lastFavoriteISBN/10 [33m404 [0m0.617 ms - 158[0m
+[0mGET /newClub [36m304 [0m96.268 ms - -[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.066 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m53.198 ms - -[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.099 ms - 0[0m
+[0mGET /lastBookAdd [33m404 [0m0.637 ms - 150[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /mostRead [33m404 [0m0.164 ms - 147[0m
+{ Error: ER_NO_SUCH_TABLE: Table 'sql2292789.Libros' doesn't exist
+    at Query.Sequence._packetToError (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+    --------------------
+    at Protocol._enqueue (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:200:25)
+    at router.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:29:19)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'sql2292789.Libros' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   'SELECT codLibro AS idLibro, ISBN, MAX(puntuacion) AS puntos FROM titulo T RIGHT JOIN libros L ON(T.codTitulo = L.codTitulo)WHERE puntuacion=(SELECT MAX(puntuacion) FROM Libros)' }
+[0mGET /bestbook [32m200 [0m47.851 ms - -[0m
+[0mGET /loginPage/profile [36m304 [0m49.497 ms - -[0m
+[0mGET /iconHome/10 [33m404 [0m0.176 ms - 150[0m
+[0mGET /lastFavoriteISBN/10 [33m404 [0m0.144 ms - 158[0m
+[0mGET /newClub [36m304 [0m93.738 ms - -[0m
+[0mGET /club/listS/socios [33m404 [0m0.243 ms - 156[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.080 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m49.616 ms - -[0m
+[0mGET /club/list/10 [33m404 [0m0.216 ms - 151[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.085 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m49.480 ms - -[0m
+[0mGET /books/10 [32m200 [0m48.997 ms - 1545[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.123 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m49.103 ms - -[0m
+[0mGET /profile/lastFavorite/10 [33m404 [0m0.225 ms - 162[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.082 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m244.748 ms - -[0m
+[0mGET /profile/lastFavorite/10 [33m404 [0m0.198 ms - 162[0m
+[0mOPTIONS /loginPage/profile [32m204 [0m0.090 ms - 0[0m
+EL elemento decoded contiene[object Object]
+Executing (default): SELECT `codUsuario`, `nomUsuario`, `apellido1`, `apellido2`, `contrasena`, `email`, `fechaRegistro`, `icono`, `sexo`, `visibilidad`, `bio`, `alias` FROM `usuario` AS `user` WHERE `user`.`codUsuario` = 10;
+[0mGET /loginPage/profile [36m304 [0m50.711 ms - -[0m
+[0mGET /books/10 [36m304 [0m47.825 ms - -[0m

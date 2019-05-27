@@ -938,3 +938,424 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the cli
     at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
     at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
     at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:482:11)
+    at ServerResponse.header (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\response.js:170:12)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:9:9
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:482:11)
+    at ServerResponse.header (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\response.js:170:12)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\homeRouter.js:9:9
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+TokenExpiredError: jwt expired
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:94:10)
+    at users.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\loginRouter.js:87:23)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+TokenExpiredError: jwt expired
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:94:10)
+    at users.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\loginRouter.js:87:23)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+TokenExpiredError: jwt expired
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:94:10)
+    at users.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\loginRouter.js:87:23)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+TokenExpiredError: jwt expired
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:94:10)
+    at users.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\loginRouter.js:87:23)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+TokenExpiredError: jwt expired
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:94:10)
+    at users.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\loginRouter.js:87:23)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+TokenExpiredError: jwt expired
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:94:10)
+    at users.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\loginRouter.js:87:23)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+TokenExpiredError: jwt expired
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:94:10)
+    at users.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\loginRouter.js:87:23)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+TokenExpiredError: jwt expired
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:94:10)
+    at users.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\loginRouter.js:87:23)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+TokenExpiredError: jwt expired
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:94:10)
+    at users.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\loginRouter.js:87:23)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\booksRouter.js:45
+        if(rows.length == 0) {
+                ^
+
+TypeError: Cannot read property 'length' of undefined
+    at Query.mysqlConnection.query (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\booksRouter.js:45:17)
+    at Query.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:502:10)
+    at Query._callback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:468:16)
+    at Query.Sequence.end (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:224:14
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+events.js:173
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:112:13)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:97:28)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:202:15)
+    at endReadableNT (_stream_readable.js:1129:12)
+    at processTicksAndRejections (internal/process/next_tick.js:76:17)
+Emitted 'error' event at:
+    at Connection._handleProtocolError (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:425:8)
+    at Protocol.emit (events.js:197:13)
+    at Protocol._delegateError (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:390:10)
+    at Protocol.end (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\protocol\Protocol.js:116:8)
+    at Socket.<anonymous> (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\mysql\lib\Connection.js:97:28)
+    [... lines matching original stack trace ...]
+    at processTicksAndRejections (internal/process/next_tick.js:76:17)
+TokenExpiredError: jwt expired
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:94:10)
+    at users.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\loginRouter.js:87:23)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+TokenExpiredError: jwt expired
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:94:10)
+    at users.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\loginRouter.js:87:23)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+TokenExpiredError: jwt expired
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:94:10)
+    at users.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\loginRouter.js:87:23)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+TokenExpiredError: jwt expired
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:94:10)
+    at users.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\loginRouter.js:87:23)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+TokenExpiredError: jwt expired
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:94:10)
+    at users.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\loginRouter.js:87:23)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+TokenExpiredError: jwt expired
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\jsonwebtoken\verify.js:94:10)
+    at users.get (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\routes\loginRouter.js:87:23)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\6001290\Desktop\jobs\pipeline_app_lectura\server\node_modules\express\lib\router\index.js:275:10)
