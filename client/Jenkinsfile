@@ -37,8 +37,8 @@ pipeline {
         }
         stage('Deploy Bluemix'){
           steps {
-            withCredentials([string(credentialsId: 'ApiKey', variable: 'varApiKey')]) {
-              script {
+            script {
+              withCredentials([string(credentialsId: 'ApiKey', variable: 'varApiKey')]) {
                 ibmCloudDeploy('applectura','$varApikey')
                 ibmCloudDeploy('applectura-server','$varApikey')
               }
