@@ -39,8 +39,8 @@ pipeline {
           steps {
             script {
               withCredentials([string(credentialsId: 'ApiKey', variable: 'varApiKey')]) {
-                ibmCloudDeploy('applectura','$varApikey')
-                ibmCloudDeploy('applectura-server','$varApikey')
+                ibmCloudDeploy('applectura')
+                ibmCloudDeploy('applectura-server')
               }
             }
           }
