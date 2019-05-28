@@ -38,10 +38,8 @@ pipeline {
         stage('Deploy Bluemix'){
           steps {
             script {
-
                 ibmCloudDeploy('applectura')
                 ibmCloudDeploy('applectura-server')
-
             }
           }
         }
